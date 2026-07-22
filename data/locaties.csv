@@ -1757,9 +1757,9 @@ Amsterdam,2682,Alberdingk Thijmstraat,30,Amsterdam,52.36417544,4.875922,adres,,N
 Amsterdam,2683,Van Stalperstraat,84,Amsterdam,52.36511559,4.83126327,adres,,D. Vecgt,J.B. Cristiaanse,10500,10-9-1943,,,,,,,,,,False
 Amsterdam,2684,Jacob van Lennepkade,145/155,Amsterdam,52.36314906,4.86521647,adres,,J. v. Bood,J.N. Brouwer,72000,8-2-1943,,,,,,,Y,,,True
 Amsterdam,2685,Bloemstraat,37/39,Amsterdam,52.37411237,4.88138773,adres,,R. Streep-Prins,T. Wolff,6000,10-5-1943,,,,,,,Y,,,True
-Middelburg,2686,Lange Noordstraat,27,Middelburg,51.49989181,3.61064183,adres,,M.H. Boosson,F.H. Klinkhamer,,,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"23 (Middelburg_1), 59 (Middelburg_2)",,,,,,,False
-Middelburg,2686,Noordsingel,74,Middelburg,51.50574903,3.61260385,adres,,M.H. Boosson,F.H. Klinkhamer,,,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"23 (Middelburg_1), 59 (Middelburg_2)",,,,,,,False
-Middelburg,2686,Park de Griffioen,2,Middelburg,51.49989354,3.60181284,adres,,M.H. Boosson,F.H. Klinkhamer,,,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"23 (Middelburg_1), 59 (Middelburg_2)",,,,,,,False
+Middelburg,2686,Lange Noordstraat,27,Middelburg,51.49989181,3.61064183,adres,,M.H. Boosson,F.H. Klinkhamer,,,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"23 (Middelburg_1), 59 (Middelburg_2)",,,,,,,False
+Middelburg,2686,Noordsingel,74,Middelburg,51.50574903,3.61260385,adres,,M.H. Boosson,F.H. Klinkhamer,,,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"23 (Middelburg_1), 59 (Middelburg_2)",,,,,,,False
+Middelburg,2686,Park de Griffioen,2,Middelburg,51.49989354,3.60181284,adres,,M.H. Boosson,F.H. Klinkhamer,,,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"23 (Middelburg_1), 59 (Middelburg_2)",,,,,,,False
 Velsen,2687,Velserbroekstraat,11/17,Velsen,52.43193209,4.64575211,adres,,S.S. te Korte,J. Bais,20000,24-3-1943,,Y,73,,,,Y,,,True
 Amsterdam,2688,Willemsparkweg,49,Amsterdam,52.35734554,4.87610345,adres,,J. Gosschalk,J.H. Jurgens,17000,4-2-1943,,,,,,,,,,False
 Amsterdam,2689,Overtoom,54,Amsterdam,52.36324304,4.87646127,adres,,M.R. Cohen,J.P. Everout,21000,26-2-1943,,,,,,,Y,,,False
@@ -1825,7 +1825,7 @@ Súdwest Fryslân,2747,Emmastraat,31/33,Sneek,53.03251321,5.65459247,straat,,S. 
 Rotterdam,2748,Vrijenbanschestraat,40,Rotterdam,51.92248806,4.48653571,plaats,,A. Hertzberger-Cohen,R. Rijnders,9000,17-6-1943,,,,,,,Y,,,True
 Schiedam,2749,Galileļstraat,7/21,Schiedam,51.92675598,4.38526221,plaats,,C. Hartogs,J. Sparnaay,62000,28-4-1943,,,,,,,Y,,,True
 Rotterdam,2750,Gaffelsstraat,47,Rotterdam,51.92248806,4.48653571,plaats,,A. Druyf,A. v.d. Rhee,9000,18-2-1943,,,,,,,Y,,,True
-Middelburg,2751,Noordweg B 53b/c,,Sint-Laurens,,,failed,,P. Baassen-Cohen,J.A. de Groote-de Lange,10500,2-2-1943,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,60 (Middelburg_2),,,,,,,True
+Middelburg,2751,Noordweg B 53b/c,,Sint-Laurens,,,failed,,P. Baassen-Cohen,J.A. de Groote-de Lange,10500,2-2-1943,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,60 (Middelburg_2),,,,,,,True
 Dordrecht,2752,Singel,106a,Dordrecht,51.81475992,4.67771788,adres,,J.M. Monasch,H. Weda,9500,10-3-1943,,,,,,,,,,True
 Rotterdam,2753,Lieve Verschuierstraat,52/54,Rotterdam,51.91146475,4.45855006,adres,,S.S. Presser,P.F. Scheffel,17000,26-2-1943,,,,,,,Y,,,True
 Rotterdam,2754,Harddraverstraat,17/21,Rotterdam,51.92624483,4.46656636,straat,,J. Kroon,Norum Passessi,37000,9-2-1943,,,,,,,,,Y,True
@@ -2585,7 +2585,7 @@ Arnhem,3471,Ruysdaelstraat,80,Arnhem,52.00113721,5.89259248,plaats,,C.H. Bendien
 Apeldoorn,3472,Stationsstraat,89,Apeldoorn,52.2129446,5.96689185,adres,,A. Cozijn,K. Stokking,9500,7-5-1943,,,,,,,,,,False
 Apeldoorn,3473,Biddemanspad,15,Apeldoorn,52.21083598,5.9737347,plaats,,S. de Jong,R. v. Oene,1800,10-5-1943,,,,,,,,,,True
 Nijmegen,3474,Vossenlaan,5,Nijmegen,51.82646881,5.85274406,adres,,A. de Jong,H. Weibeler,8200,31-3-1943,,,,,,,,,,True
-Middelburg,3475,Heerenstraat,25,Middelburg,51.50256657,3.6158965,plaats,,S. Polak-Braasem,Zeeuwsche Dameshandwerkenfabr. N.V.,2700,1-4-1943,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"22 (Middelburg_1), 8 (Middelburg_2), 58 (Middelburg_2)",,,,,,Y,True
+Middelburg,3475,Heerenstraat,25,Middelburg,51.50256657,3.6158965,plaats,,S. Polak-Braasem,Zeeuwsche Dameshandwerkenfabr. N.V.,2700,1-4-1943,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"22 (Middelburg_1), 8 (Middelburg_2), 58 (Middelburg_2)",,,,,,Y,True
 Apeldoorn,3476,Groenendaalscheweg,60,Loenen,52.11519182,6.00111948,adres,,J.J. Polak,W. Busscher,6000,4-6-1943,,,,,,,,,,False
 Arnhem,3477,Ruysdaelstraat,22,Arnhem,52.00113721,5.89259248,plaats,,A. de Groot-v. Win,H. Weibeler,8200,31-3-1943,,,,,,,,,,True
 Leiden,3478,Wittesingel,19,Leiden,52.15498245,4.48511551,plaats,,E.A. Cosman,E. Gobée,13000,3-4-1943,,,,,https://pointer.kro-ncrv.nl/brief-oom-joods-vastgoed-uit-handen-duitsers,Y,,,,True
@@ -2829,7 +2829,7 @@ Vlaardingen,3708,Geraniumstraat,42/44,Vlaardinger-Ambacht,51.91788131,4.35511457
 Hoeksche Waard,3709,Polderstraat,63,Oud-Beijerland,51.80970132,4.41337721,plaats,,A. ter Hartog,S. Beyer,4200,28-5-1943,,,,,,,,,,True
 Goeree-Overflakkee,3710,Verlengde Hoflaan,3/4/5,Middelharnis,51.75825312,4.1601697,straat,,E. Hartogs,J. Rotsma,7250,5-7-1943,,Y,"83, 111, 112, 113",,,,,,,True
 Goeree-Overflakkee,3711,Louis Bouwmeesterplein,C 165,Middelharnis,51.75872332,4.15937268,straat,,E. Hartogs,J. Rotsma,7200,5-7-1943,,Y,"83, 102, 111, 113, 114",,,,,,,True
-Middelburg,3712,Wagenaarstraat,26,Middelburg,51.50158098,3.61414785,adres,,J.P.J. de Groot Dam,A. de Jager,3000,27-5-1943,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"24 (Middelburg_1), 60 (Middelburg_2)",,,,,,,False
+Middelburg,3712,Wagenaarstraat,26,Middelburg,51.50158098,3.61414785,adres,,J.P.J. de Groot Dam,A. de Jager,3000,27-5-1943,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"24 (Middelburg_1), 60 (Middelburg_2)",,,,,,,False
 Rotterdam,3713,Mathenesserlaan,314,Rotterdam,51.91409653,4.45677913,straat,,I. Bril,R. Rijnders,20500,9-9-1943,,,,,,,Y,,,True
 Rotterdam,3714,Schommelstraat,36/40,Rotterdam,51.93461977,4.47881979,adres,,A. v. Handel-Snoek,C.J. Lantvliet,29000,15-4-1943,,,,,,,,,,True
 Rotterdam,3715,Wollefoppenstraat,61/65,Rotterdam,51.92705751,4.49879544,adres,,S. de Kadt,W.F. Deege,17500,6-5-1943,,,,,,,,,,True
@@ -2879,7 +2879,7 @@ Groningen,3756,Kleine Raamstraat,9/11,Groningen,53.21447561,6.56782592,adres,,R.
 Enschede,3757,Prinsenstraat,11,Enschede,52.22080698,6.8777881,plaats,,A. Cats,A. Clahsen,13000,27-5-1943,,,,,,,,,,True
 Zaltbommel,3758,Waterstraat,33,Zaltbommel,51.81455161,5.2468575,adres,,Erb. S. Blijdestein,G.J. Blom,3350,14-5-1943,,Y,102-103,,,,,,,False
 Oss,3759,Heuvel,88,Oss,51.76994803,5.52478749,adres,,I. Förster,P.J. v.d. Schoot,7250,12-8-1943,,,,,,,,,,True
-Middelburg,3760,Koorkerkhof,16,Middelburg,51.49972559,3.61557573,adres,,I.P.J. de Groot,N.T. de Jong,3500,27-5-1943,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"22 (Middelburg_1), 59 (Middelburg_2)",,,,,,,False
+Middelburg,3760,Koorkerkhof,16,Middelburg,51.49972559,3.61557573,adres,,I.P.J. de Groot,N.T. de Jong,3500,27-5-1943,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"22 (Middelburg_1), 59 (Middelburg_2)",,,,,,,False
 Soest,3761,Vosseveldlaan,44,Soest,52.15830809,5.30931889,adres,,J. Messias,M. van Kooten,6000,30-8-1943,,Y,"32, 33, 71",,,,,,,False
 Laren,3762,Leemkuil,1,Laren,52.26264419,5.2215678,adres,,S.F. Dupare de Beer,O.F. Miller,13500,3-5-1943,,,,,,,,,,False
 Laren,3763,Oud Blaricummerweg,36,Laren,52.26213863,5.227197,adres,,N. Huper Schnitzler,C. Wester,9000,16-4-1943,,,,,,,,,,False
@@ -3013,7 +3013,7 @@ Amsterdam,3889,Richard Wagnerstraat,36,Amsterdam,52.34600474,4.8785968,adres,,C.
 Amsterdam,3890,Rechtboomsloot,24,Amsterdam,52.37344272,4.90454379,plaats,,N.V. v.d. Heyden's Confectie fabr.,E. Ebbinghaus,17000,13-4-1943,,,,,,,,,,True
 Aa en Hunze,3891,Asserstraat,4,Rolde,52.98817983,6.64231222,adres,,J.E. Hasselt,J.G. v. Steinfoorn,5500,27-4-1943,,,,,,,,,,True
 Almelo,3892,Windsteeg,,Almelo,52.35771367,6.65988219,plaats,,A.L. Bendien u. Gen.,T. Bendien-Postma,12600,,,,,,,,,,,True
-Middelburg,3893,Langevielesingel,66,Middelburg,51.4955654,3.60429084,adres,,S. Polak-Braasem,J.A. de Groot-de Lange,7750,27-5-1943,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"14 (Middelburg_1), 23 (Middelburg_1), 7 (Middelburg_2), 60 (Middelburg_2)",,,,,,,False
+Middelburg,3893,Langevielesingel,66,Middelburg,51.4955654,3.60429084,adres,,S. Polak-Braasem,J.A. de Groot-de Lange,7750,27-5-1943,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"14 (Middelburg_1), 23 (Middelburg_1), 7 (Middelburg_2), 60 (Middelburg_2)",,,,,,,False
 Bloemendaal,3894,Bloemendaalscheweg,273,Overveen,52.39084036,4.60968467,adres,,G. Leeuwin,L. Parlevliet,15000,30-4-1943,,,,,,,Y,,,False
 Haarlem,3895,Delftlaan,189,Haarlem,52.4036148,4.63267669,adres,,S.J. de Bruin,P. Wilkes,7500,30-4-1943,,,,,,,,,,False
 Steenwijkerland,3896,J.H. Tromp Meesterstraat,8,Steenwijk,52.78978096,6.11687392,adres,,B. Slager,K. Bouwknecht,7250,17-6-1943,,Y,"18, 21, 52",,,,,,,False
@@ -3094,7 +3094,7 @@ Laren,3968,Zevenenderdrift,74/76,Laren,52.24748044,5.22777633,adres,,J. Simons,N
 Deventer,3969,Korte Bischopstraat,14,Deventer,52.25382947,6.15889235,adres,,H. Spanier,B. Sonnevelt,23250,10-6-1943,,,,,,,,,,False
 s Gravenhage,3970,Weimarstraat,398,Den Haag,52.07185801,4.27387948,adres,,J. Levie,G.F. Groenenwegen,11000,14-7-1943,,,,,,,,,,False
 Berkelland,3971,"Zuid Parallelweg B31a,b",,Borculo,52.11932838,6.52488425,straat,,I.S. Heijmans,J. Hoogeveen,5600,30-8-1943,,Y,81,,,,,,,True
-Middelburg,3972,Nieuwe Vlissingsche Weg,302/308,Middelburg,51.48565579,3.60360347,adres,,E. Boasson-Cohen,J.C. Dekker,18000,7-6-1943,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"15 (Middelburg_1), 23-24 (Middelburg_1), 60 (Middelburg_2)",,,,Y,,,True
+Middelburg,3972,Nieuwe Vlissingsche Weg,302/308,Middelburg,51.48565579,3.60360347,adres,,E. Boasson-Cohen,J.C. Dekker,18000,7-6-1943,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"15 (Middelburg_1), 23-24 (Middelburg_1), 60 (Middelburg_2)",,,,Y,,,True
 Deventer,3973,Bloemstraat,37,Deventer,52.24944528,6.14434225,adres,,J. Polak,W. Abink,1200,4-5-1943,,,,,,,,,,False
 Land van Cuijk,3974,Parallelweg,A 518,Cuijk,51.72818465,5.87392398,straat,,J. Andriesse,B.J. Rempel,4800,2-6-1943,,Y,13,,,,,,,True
 Rijswijk,3975,Huis te Hoornkade,31/33,Rijswijk,52.04752729,4.34249813,adres,,A.J. Kooperberg,F. v.d. Vlugt,20000,18-6-1943,,,,,,,Y,,,True
@@ -3358,7 +3358,7 @@ s Gravenhage,4207,Malakkastraat,123,Den Haag,52.09032194,4.29801005,adres,,C. Ar
 Rotterdam,4208,Anna Paulownastraat,56/60,Rotterdam,51.9206836,4.46778512,adres,,A. Druyf,E.F. Scheffel,21000,25-8-1943,,,,,,,Y,,,True
 Dordrecht,4209,Kolfstraat,59/61,Dordrecht,51.81482561,4.66794821,adres,,S.H. Meyer,J. Lawende,9250,30-7-1943,,,,,,,Y,,,True
 Amsterdam,421,Kerkstraat,63,Amsterdam,52.36500164,4.88627791,adres,,J.J. Süsholz,A. Vreeling,13000,20-7-1942,,,,,,,Y,,,False
-Middelburg,4210,Korte Delft,23,Middelburg,51.49967698,3.61610109,adres,,S.M. Barkelau,H.A. Gerretsen-v.d. Weede,6000,7-6-1943,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"22 (Middelburg_1), 35 (Middelburg_1), 59 (Middelburg_2)",,,,,,,True
+Middelburg,4210,Korte Delft,23,Middelburg,51.49967698,3.61610109,adres,,S.M. Barkelau,H.A. Gerretsen-v.d. Weede,6000,7-6-1943,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"22 (Middelburg_1), 35 (Middelburg_1), 59 (Middelburg_2)",,,,,,,True
 Doetinchem,4211,Hamburgerstraat,65,Doetinchem,51.96407864,6.29118385,adres,,S.W. Groonheim,J. Bargeman,2800,7-6-1943,,,,,,,,,,False
 Doetinchem,4212,Thorbeckestraat,56/58,Doetinchem,51.96484754,6.31513751,plaats,,A. Heilbron,G. van Kampen,3200,24-5-1943,,,,,,,,,,True
 Doetinchem,4213,Thorbeckestraat,19,Doetinchem,51.96484754,6.31513751,plaats,,I.J. Jacobs,W.E.A. Ebert,4200,24-5-1943,,,,,,,,,,True
@@ -3624,7 +3624,7 @@ Goeree-Overflakkee,4438_a,Marktveld,A 45,Sommelsdijk,51.75944362,4.15145416,stra
 Goeree-Overflakkee,4438_b,Marktveld,A 45,Sommelsdijk,51.75944362,4.15145416,straat,,J.L. Hammelburg,G. Mooiweer,2500,23-7-1943,,Y,"83, 111, 118",,,,,,,True
 Rotterdam,4439,Harddraverstraat,45/47,Rotterdam,51.92619682,4.46584187,adres,,M. v. Dijk,R. Rijnders,29000,1-9-1943,,,,,,,Y,,,True
 Amsterdam,444,2e Jan van der Heijdenstraat,97,Amsterdam,52.35660833,4.90387016,adres,,H.F. v.d. Veen,J.M. Zwaan,15500,31-8-1942,,,,,,,,,,False
-Middelburg,4440,Noordbolwerk,15,Middelburg,51.50470565,3.6131632,adres,,I.P.J. de Groot,J.A. Dekker,11200,7-6-1943,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"23 (Middelburg_1), 35-36 (Middelburg_2), 59 (Middelburg_2)",,,,,,,False
+Middelburg,4440,Noordbolwerk,15,Middelburg,51.50470565,3.6131632,adres,,I.P.J. de Groot,J.A. Dekker,11200,7-6-1943,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"23 (Middelburg_1), 35-36 (Middelburg_2), 59 (Middelburg_2)",,,,,,,False
 Goeree-Overflakkee,4441,Eendrachtstraat,52,Middelharnis,51.75919502,4.16280289,straat,,R. Hiegentlich,G. Mooiweer,1800,23-7-1943,,Y,"83, 111, 118, 119",,,,,,,True
 Dinkelland,4442,Groote Water,,Ootmarsum,52.40904567,6.89973272,plaats,,M. ten Brink,H.W. Reinders,225,7-6-1943,,,,,,,,,,True
 Dinkelland,4443,Walstraat 153 en Westwal,,Ootmarsum,52.40850216,6.89547776,straat,,M. ten Brink,A.H. Kip,2375,7-6-1943,,,,,,,,,,True
@@ -4185,7 +4185,7 @@ Midden-Groningen,4924,Scheemderweg,A 37,Noordbroek,53.19255492,6.90214373,adres,
 Vught,4925,Helvoirtscheweg,33,Vught,51.65014493,5.2795226,plaats,,J. Veerman-Heemstede,A.G.L. v. Boxtel,10500,12-8-1943,,,,,,,,,,True
 Súdwest Fryslân,4926,Emmastraat,25/29,Sneek,53.03251321,5.65459247,straat,,S. Vroman u. Gen.,Fa. D. Hoeksema & Zn.,10800,8-9-1943,,,,,,,,,Y,True
 Zwijndrecht,4927,Prins Mauritsstraat,100/102,Zwijndrecht,51.81877918,4.65049046,adres,,S.H. Meyer,J. v.d. Bosch,8750,24-8-1943,,,,,,,,,,True
-Middelburg,4928,Koepoortstraat,13,Middelburg,51.50251503,3.61813857,adres,,I.P.J. de Groot,J.C. Dekker,6750,27-7-1943,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"22 (Middelburg_1), 59 (Middelburg_2)",,,,Y,,,False
+Middelburg,4928,Koepoortstraat,13,Middelburg,51.50251503,3.61813857,adres,,I.P.J. de Groot,J.C. Dekker,6750,27-7-1943,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"22 (Middelburg_1), 59 (Middelburg_2)",,,,Y,,,False
 Oss,4929,Burgemeester Van den Elzenlaan,5,Oss,51.76707102,5.53324944,adres,,H.S. Hartogs,H.J. Pulles,8500,15-9-1943,,,,,,,,,,False
 Leidschendam-Voorburg,493,Parkweg,309,Voorburg,52.07704416,4.37860166,adres,,D. v.d. Heim,A. Kassen,16500,1-10-1942,,,,,,,,,,False
 Oldambt,4930,Diepswal,17/19,Scheemda,53.17659285,6.96996877,adres,,D. Bamberg,J. de Vries,3100,27-7-1943,,,,,,,,,,True
@@ -4414,7 +4414,7 @@ Hilversum,6018,Eikbosscherweg,181,Hilversum,52.22310922,5.16803652,plaats,,C.B. 
 Utrecht,6019,Prof. Leonard Fuchslaan,1d,Utrecht,52.1052561,5.12730965,adres,,S.M.S. Engelsman,P. Hitzel,7000,15-9-1943,,,,,,,,,,False
 s Gravenhage,602,Daendelsstraat,27/27a,Den Haag,52.07903647,4.33325914,adres,,J.M. v. Veen,A.M. Bremerkamp-Tijssen,13500,13-7-1942,,,,,,,,,,True
 Utrecht,6020,Johannes Brahmstraat,36/44,Utrecht,52.08356439,5.08655149,adres,,H. Bonewit,H. Verheul,22000,31-7-1943,,,,,,,,,,True
-Middelburg,6021,Korte Giststraat,6/8/10,Middelburg,51.49998887,3.61586691,adres,,J.P.J. de Groot,L.F. Groossman,5950,13-8-1943,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"22-23 (Middelburg_1), 59-60 (Middelburg_2)",,,,,,,True
+Middelburg,6021,Korte Giststraat,6/8/10,Middelburg,51.49998887,3.61586691,adres,,J.P.J. de Groot,L.F. Groossman,5950,13-8-1943,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"22-23 (Middelburg_1), 59-60 (Middelburg_2)",,,,,,,True
 Oss,6022,Goudmijnstraat,51,Oss,51.76813426,5.53172907,adres,,J. Colthof,W.J. de Haan,5500,12-4-1944,,,,,,,,,,False
 Altena,6023,Buitenwaard,,Woudrichem,51.76412844,5.12661261,straat,,A. Benjamins,A. de Waard,2750,15-10-1943,,,,,,,,,,True
 Opsterland,6024,Langewal,417,Gorredijk,53.00248445,6.064841,adres,,B.L. Colthof,A. Huisman,2300,8-9-1943,,,,,,,,,,True
@@ -5249,7 +5249,7 @@ Zutphen,6752,Raadhuissteeg,8,Zutphen,52.14035161,6.19633728,adres,,J. Snatager-W
 Laren,6753,Leemzeulder,4,Laren,52.26357208,5.22355346,adres,,Erb. J. Simons,J.M.C. Groenwald-Debra,10300,19-10-1943,,,,,,,,,,False
 Oisterwijk,6754,Kolpven,,Oisterwijk,51.56650084,5.21627219,plaats,,S. de Beer,J.G.K. Oterman,4500,1-11-1943,,Y,"97, 98, 99, 100",,,,,,,True
 Rotterdam,6755,Couwaelstraat13-15,,Rotterdam,51.92248806,4.48653571,plaats,,J. Polak,A. v. Orselen,25500,10-11-1943,,,,,,,,,,True
-Middelburg,6756,Park de Griffioen,10,Middelburg,51.4997344,3.60098154,adres,,P.J. v. Dam,T.F.J. Driesen,7800,26-10-1943,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"24 (Middelburg_1), 60 (Middelburg_2)",,,,,,,False
+Middelburg,6756,Park de Griffioen,10,Middelburg,51.4997344,3.60098154,adres,,P.J. v. Dam,T.F.J. Driesen,7800,26-10-1943,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"24 (Middelburg_1), 60 (Middelburg_2)",,,,,,,False
 Rotterdam,6757,Jaffa Dwarsstraat,4b/4a,Rotterdam,51.93111484,4.50328748,straat,,L. de Leeuw,H.E.J. Knetemann,8000,23-2-1944,,,,,,,Y,,,True
 Deventer,6758,President Steynstraat,45,Deventer,52.26348043,6.15927095,adres,,J.P. Frank,P. Roest,5000,17-12-1943,,,,,,,Y,,,False
 Zevenaar,6759,Grietschestraat,190/193,Zevenaar,51.93535573,6.07852573,plaats,,L. Gans,J.A. Burgers,4600,15-4-1944,,,,,,,Y,,,True
@@ -5389,7 +5389,7 @@ Sittard-Geleen,6876,Nieuwe J.W. Lahrweg,,Sittard,50.99149821,5.8941662,straat,,M
 Sittard-Geleen,6876,Lahrweg,,Sittard,50.99149821,5.8941662,straat,,M. Wolf,H. Gilles,7480,15-12-1943,,,,,,,,,,True
 s Hertogenbosch,6877,Borneostraat,9,Den Bosch,51.68773015,5.32680414,adres,,Wed. E. Winter-Cohen,B.E.M. Hermans,4200,15-4-1944,,,,,,,Y,,,False
 s Gravenhage,6878,Elzemanstraat,18,Den Haag,52.07207291,4.29300083,plaats,,M. Polak,J.H. v. Dyk,600,16-11-1943,,,,,,,,,,True
-Middelburg,6879,Noordweg,108,Middelburg,51.51497152,3.60597728,adres,,E. Boasson-Cohen,P.J. Abrahamse,5000,7-1-1944,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"24 (Middelburg_1), 48 (Middelburg_2), 60 (Middelburg_2)",,,,,,,True
+Middelburg,6879,Noordweg,108,Middelburg,51.51497152,3.60597728,adres,,E. Boasson-Cohen,P.J. Abrahamse,5000,7-1-1944,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"24 (Middelburg_1), 48 (Middelburg_2), 60 (Middelburg_2)",,,,,,,True
 Amsterdam,688,Alexander Boersstraat,18,Amsterdam,52.3572023,4.87832168,adres,,M. Houthakker-Lichtenstein,J.W. Dijkman,15000,16-9-1942,,,,,,,,,,False
 s Hertogenbosch,6880,Borneostraat,26,Den Bosch,51.6877695,5.32770574,adres,,T.R. Stokvis,B.E.M. Hermans-Helsloot,4200,15-4-1944,,,,,,,Y,,,False
 Assen,6881,Rolderstraat,,Assen,52.99571214,6.56932002,straat,,M. v.d. Hoek,W. Göbel,350,6-1-1944,,,,,,,,,,True
@@ -5988,7 +5988,7 @@ Berkelland,7382,Hessenstraat Ca,38b,Borculo,52.11166113,6.51509076,straat,,I.S. 
 Rijswijk,7383,Jan van Rodestraat,116/126,Rijswijk (ZH),52.04885173,4.33311267,straat,,A.S. Elzas,P.K. v. Kranen,17000,4-5-1944,,,,,,,Y,,,True
 Amsterdam,7384,Jan Willem Brouwersstraat,22,Amsterdam,52.35623675,4.87742265,adres,,M.S. Goldschmidt,N.J. Ros,10000,28-1-1944,,,,,,,Y,,,False
 Oost Gelre,7385,Beltrumschestraat,A 163,Groenlo,52.04249398,6.61663327,adres,,J. Heymans,C. Kettelarij,4700,,,,,,,,,,,True
-Middelburg,7386,Korte Geere,28,Middelburg,51.49748792,3.61023562,adres,,J. Jesayes-Braasem,R.J. Zimmerman,1300,22-3-1944,https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kro-ncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"22 (Middelburg_1), 49 (Middelburg_2), 59 (Middelburg_2)",,,,,,,True
+Middelburg,7386,Korte Geere,28,Middelburg,51.49748792,3.61023562,adres,,J. Jesayes-Braasem,R.J. Zimmerman,1300,22-3-1944,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_1.pdf;https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Middelburg_2.pdf,Middelburg_1.pdf + Middelburg_2.pdf,"22 (Middelburg_1), 49 (Middelburg_2), 59 (Middelburg_2)",,,,,,,True
 Terneuzen,7387,Roeiersgang,10,Terneuzen,51.33861881,3.82354954,straat,,M. Hartog,J. Klaassen,2500,,,,,,,,,,,True
 Doetinchem,7388,Varsseveldscheweg,136b/136e,Doetinchem,51.96484754,6.31513751,plaats,,S. v. Spiegel,H. Vossers,9000,13-3-1944,,,,,,,,,,True
 Amsterdam,7389,Kloveniersburgwal,17,Amsterdam,52.3717184,4.89990234,adres,,E. Slap,B.B. Poortmans,23000,4-4-1944,,,,,,,,,,False

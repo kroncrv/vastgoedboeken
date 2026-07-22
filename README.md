@@ -2,7 +2,7 @@
 
 Databestanden en gemeentelijke onderzoeksrapporten bij het onderzoek van Pointer (KRO-NCRV) naar de verkoop van Joods vastgoed door de Duitse bezetter, en hoe Nederlandse gemeenten daarmee zijn omgegaan.
 
-**[LINK: hier de gepubliceerde Pointer-artikelen over dit onderzoek toevoegen]**
+Alle publicaties over dit onderzoek: [pointer.nl/vastgoedboeken](https://pointer.nl/vastgoedboeken).
 
 ## Inhoud
 
