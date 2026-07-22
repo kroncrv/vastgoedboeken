@@ -77,7 +77,7 @@ Alle transacties uit `verkaufsbucher.csv`, gegeocodeerd tot punten op de kaart. 
 | `rapport` | Link(s) naar het gemeentelijke onderzoeksrapport in `rapporten/`, als daar via dit transactie is gekoppeld |
 | `filter_rapport` | Ruwe waarde uit de brondata: een bestandsnaam, `Y` (rapport bestaat, maar niet aan een specifiek bestand gekoppeld) of leeg (geen rapport) |
 | `rapport_pagina` | Paginaverwijzing binnen dat rapport |
-| `kop_artikel`, `link_artikel` | Titel en link naar een Pointer-artikel dat dit adres uitlicht |
+| `kop_artikel`, `link_artikel` | Titel en link naar een Pointer-artikel dat dit adres uitlicht. `link_artikel` is altijd gevuld als `filter_verhaal` op `Y` staat; `kop_artikel` (de titel) is alleen bekend voor een klein deel daarvan |
 | `filter_verhaal` | `Y` als dit adres in een gepubliceerd Pointer-verhaal voorkomt (op basis van `kop_artikel`/`link_artikel` of een match met de publicatielijst) |
 | `filter_pandjesbaas` | `Y` als de koper is aangemerkt als bevestigde pandjesbaas (iemand die structureel Joods vastgoed opkocht), inclusief transacties waarbij dezelfde koper elders in de dataset al bevestigd is |
 | `filter_gemeente`, `filter_bedrijf` | Overige redactionele markeringen, gebruikt voor de filters op de kaart |
