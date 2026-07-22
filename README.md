@@ -76,9 +76,11 @@ Alle transacties uit `verkaufsbucher.csv`, gegeocodeerd tot punten op de kaart. 
 | `kop_artikel`, `link_artikel` | Alleen gevuld bij transacties die in een eerder Pointer-artikel zijn uitgelicht |
 | `gemeente_2026` | Huidige gemeente-indeling |
 | `rapport` | Link(s) naar het gemeentelijke onderzoeksrapport in `rapporten/`, als daar via dit transactie is gekoppeld |
+| `filter_rapport` | Ruwe waarde uit de brondata: een bestandsnaam, `Y` (rapport bestaat, maar niet aan een specifiek bestand gekoppeld) of leeg (geen rapport) |
 | `rapport_pagina` | Paginaverwijzing binnen dat rapport |
 | `needs_review` | `True` als dit punt extra archiefonderzoek verdient, `False` als het adres met voldoende zekerheid vaststaat |
-| `filter_huisjesmelker`, `filter_gemeente`, `filter_bedrijf` | Redactionele markeringen, gebruikt voor de filters op de kaart |
+| `filter_pandjesbaas` | `Y` als de koper is aangemerkt als bevestigde pandjesbaas (iemand die structureel Joods vastgoed opkocht), inclusief transacties waarbij dezelfde koper elders in de dataset al bevestigd is |
+| `filter_gemeente`, `filter_bedrijf` | Overige redactionele markeringen, gebruikt voor de filters op de kaart |
 
 ### 🏛️ gegevens_gemeenten.csv
 
