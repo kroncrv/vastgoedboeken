@@ -70,7 +70,7 @@ Alle transacties uit `verkaufsbucher.csv`, gegeocodeerd tot punten op de kaart. 
 | `transactie_id` | Koppelt terug naar de transactie (zelfde `Algemeen laufnr`) |
 | `straatnaam`, `huisnummer`, `plaats` | Ontleed adres |
 | `lat`, `lon` | Coördinaten (WGS84) |
-| `geocode_precisie` | Hoe zeker het punt is: `adres` (exact), `straat` (alleen straatniveau), `plaats` (alleen plaatsniveau), `kadastraal_onbekend` (kadastrale aanduiding, niet te geocoderen) of `failed` (niet gevonden) |
+| `geocode_precisie` | Hoe zeker het punt is: `adres` (exact), `straat` (alleen straatniveau), `plaats` (alleen plaatsniveau), `kadastraal_onbekend` (kadastrale aanduiding, niet te geocoderen), `geen_adres` (bron vermeldt geen straatadres, bijvoorbeeld bij "Bauland" of "Weiland" — geen `lat`/`lon`, maar wel opgenomen zodat de transactie niet verdwijnt) of `failed` (niet gevonden) |
 | `object` | Objecttype (bijvoorbeeld "Weiland") als er geen straatadres was |
 | `eigenaar`, `koper` | Naam van eerste eigenaar en koper |
 | `verkoopprijs`, `koopdatum` | Uit de brondata |
