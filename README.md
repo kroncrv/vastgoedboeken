@@ -68,7 +68,7 @@ Alle transacties uit `verkaufsbucher.csv`, gegeocodeerd tot punten op de kaart. 
 |---|---|
 | `gemeente_2026` | Huidige gemeente-indeling |
 | `transactie_id` | Koppelt terug naar de transactie (zelfde `Algemeen laufnr`) |
-| `straatnaam`, `huisnummer`, `plaats` | Ontleed adres |
+| `straatnaam`, `huisnummer`, `plaats` | Ontleed adres. `huisnummer` kan meerdere nummers bevatten (bijvoorbeeld `123/125/127`) als de brontekst een adresveld met meerdere huisnummers gebruikte — die blijven bij elkaar als één adres, met één coördinaat |
 | `lat`, `lon` | Coördinaten (WGS84) |
 | `geocode_precisie` | Hoe zeker het punt is: `adres` (exact), `straat` (alleen straatniveau), `plaats` (alleen plaatsniveau), `kadastraal_onbekend` (kadastrale aanduiding, niet te geocoderen), `geen_adres` (bron vermeldt geen straatadres, bijvoorbeeld bij "Bauland" of "Weiland" — geen `lat`/`lon`, maar wel opgenomen zodat de transactie niet verdwijnt) of `failed` (niet gevonden) |
 | `object` | Objecttype (bijvoorbeeld "Weiland") als er geen straatadres was |
