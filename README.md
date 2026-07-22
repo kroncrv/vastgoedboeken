@@ -66,6 +66,7 @@ Alle transacties uit `verkaufsbucher.csv`, gegeocodeerd tot punten op de kaart. 
 
 | Kolom | Betekenis |
 |---|---|
+| `gemeente_2026` | Huidige gemeente-indeling |
 | `transactie_id` | Koppelt terug naar de transactie (zelfde `Algemeen laufnr`) |
 | `straatnaam`, `huisnummer`, `plaats` | Ontleed adres |
 | `lat`, `lon` | Coördinaten (WGS84) |
@@ -73,14 +74,14 @@ Alle transacties uit `verkaufsbucher.csv`, gegeocodeerd tot punten op de kaart. 
 | `object` | Objecttype (bijvoorbeeld "Weiland") als er geen straatadres was |
 | `eigenaar`, `koper` | Naam van eerste eigenaar en koper |
 | `verkoopprijs`, `koopdatum` | Uit de brondata |
-| `kop_artikel`, `link_artikel` | Alleen gevuld bij transacties die in een eerder Pointer-artikel zijn uitgelicht |
-| `gemeente_2026` | Huidige gemeente-indeling |
 | `rapport` | Link(s) naar het gemeentelijke onderzoeksrapport in `rapporten/`, als daar via dit transactie is gekoppeld |
 | `filter_rapport` | Ruwe waarde uit de brondata: een bestandsnaam, `Y` (rapport bestaat, maar niet aan een specifiek bestand gekoppeld) of leeg (geen rapport) |
 | `rapport_pagina` | Paginaverwijzing binnen dat rapport |
-| `needs_review` | `True` als dit punt extra archiefonderzoek verdient, `False` als het adres met voldoende zekerheid vaststaat |
+| `kop_artikel`, `link_artikel` | Titel en link naar een Pointer-artikel dat dit adres uitlicht |
+| `filter_verhaal` | `Y` als dit adres in een gepubliceerd Pointer-verhaal voorkomt (op basis van `kop_artikel`/`link_artikel` of een match met de publicatielijst) |
 | `filter_pandjesbaas` | `Y` als de koper is aangemerkt als bevestigde pandjesbaas (iemand die structureel Joods vastgoed opkocht), inclusief transacties waarbij dezelfde koper elders in de dataset al bevestigd is |
 | `filter_gemeente`, `filter_bedrijf` | Overige redactionele markeringen, gebruikt voor de filters op de kaart |
+| `needs_review` | `True` als dit punt extra archiefonderzoek verdient, `False` als het adres met voldoende zekerheid vaststaat |
 
 ### 🏛️ gegevens_gemeenten.csv
 
