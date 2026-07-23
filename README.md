@@ -1,13 +1,17 @@
 # Vastgoedboeken: roofhandel van Joods vastgoed in Nederland tijdens WOII
 
-Databestanden en gemeentelijke onderzoeksrapporten bij het onderzoek van Pointer (KRO-NCRV) naar de verkoop van Joods vastgoed door de Duitse bezetter, en hoe Nederlandse gemeenten daarmee zijn omgegaan.
+Databestanden en gemeentelijke onderzoeksrapporten bij het onderzoek van Pointer (KRO-NCRV) naar de roofhandel van Joods vastgoed door de Duitse bezetter, en hoe Nederlandse gemeenten daarmee zijn omgegaan.
 
 Alle publicaties over dit onderzoek: [pointer.nl/vastgoedboeken](https://pointer.nl/vastgoedboeken).
+
+In dit artikel lees je welke keuzes we hebben gemaakt: [placeholder]()
+
+[Klik hier om data en rapporten te downloaden](https://github.com/kroncrv/vastgoedboeken/archive/refs/heads/main.zip)
 
 ## Inhoud
 
 - [🏚️ Over dit onderzoek](#🏚️-over-dit-onderzoek)
-- [📂 De bestanden](#📂-de-bestanden)
+- [📂 De databestanden](#📂-de-databestanden)
   - [📜 verkaufsbucher.csv](#📜-verkaufsbuchercsv)
   - [📍 locaties.csv](#📍-locatiescsv)
   - [🏛️ gegevens_gemeenten.csv](#🏛️-gegevens_gemeentencsv)
@@ -20,9 +24,9 @@ Alle publicaties over dit onderzoek: [pointer.nl/vastgoedboeken](https://pointer
 
 Tijdens de Tweede Wereldoorlog verkochten de Duitse bezetters panden van eigenaren die vaak Joods waren. Het ging in totaal om circa 7.500 transacties. De administratie daarvan hield de bezetter bij in de zogeheten Verkaufsbücher: achttien boeken, waarvan het eerste (met laufnummer 1 tot 449) verloren is gegaan.
 
-Na de oorlog kwamen de Verkaufsbücher in het archief van het Nederlandse Beheersinstituut (NBI) terecht. Het Nationaal Archief heeft de inhoud gedigitaliseerd en als open data gepubliceerd. Pointer bracht die data samen met eigen onderzoek naar hoe gemeenten met dit verleden zijn omgegaan: welke gemeenten onderzoek lieten doen, wat daaruit kwam, en hoe grondig dat onderzoek was.
+Na de oorlog kwamen de Verkaufsbücher in het archief van het Nederlandse Beheersinstituut (NBI) terecht. Het Nationaal Archief heeft de inhoud gedigitaliseerd en als open data gepubliceerd. Pointer onderzoekt sinds 2020 of gemeenten de woningen aan de overlevenden of nabestaanden heeft teruggegeven. En belangrijker: hoe gmeeenten daarmee zijn omgegaan.
 
-Deze repository bevat de brondata, de resultaten van dat gemeenteonderzoek, en de onderliggende rapporten. Zo kan iedereen nagaan waar de bevindingen op zijn gebaseerd, en zelf verder zoeken naar een pand of familie.
+Deze repository bevat de brondata, de resultaten van dat gemeenteonderzoek, en de onderliggende rapporten. Zo kan iedereen nagaan waar de bevindingen op zijn gebaseerd en zelf verder zoeken naar een pand of familie.
 
 ### Over de originele Verkaufsbücher-data
 
@@ -40,15 +44,15 @@ De kolommen in het originele bestand zijn ingedeeld in vijf blokken:
 - **Koopdata**: voorlopige en definitieve koopdatum
 - **Beheerder, notaris en financiën**: beheerder, notaris, verkoopprijs, aanbetaling, kosten, omzetbelasting, nettobedrag, en overschrijvingsgegevens
 
-In de originele boeken staat deze informatie in 17 kolommen. Voor de data-invoer zijn sommige daarvan verder opgesplitst (bijvoorbeeld doordat een transactie meerdere panden of kopers had). Sommige aantekeningen uit de originele boeken zijn niet overgenomen. De originele boeken kun je raadplegen in de studiezaal van het Nationaal Archief.
+In de originele administratie staat deze informatie in 17 kolommen. Voor de data-invoer zijn sommige daarvan verder opgesplitst (bijvoorbeeld doordat een transactie meerdere panden of kopers had). Sommige aantekeningen uit de originele boeken zijn niet overgenomen. De originele boeken kun je raadplegen in de studiezaal van het Nationaal Archief.
 
-## 📂 De bestanden
+## 📂 De databestanden
 
 ### 📜 verkaufsbucher.csv
 
-Het `Data`-tabblad uit het Nationaal Archief-bestand, ongewijzigd op één kolom na (zie [licentie](#⚖️-licentie-en-bronvermelding)). Elke rij is één transactie uit de originele Verkaufsbücher.
+Het `Data`-tabblad uit het Nationaal Archief-bestand. Elke rij is één transactie uit de originele Verkaufsbücher.
 
-Kolommen die je nodig hebt om de rest te kunnen duiden:
+Kolommen die je nodig hebt om een transactie te beschrijven:
 
 - `Toegang`, `Inv.nr.`, `Algemeen laufnr`, `Beheernummer` — archiefverwijzing naar het originele boek en de plek daarin
 - `Gegevens te verkopen pand(en) Plaats`, `Adres`, `Adres 2` t/m `Adres 8` — adres(sen) van het verkochte pand (meerdere kolommen omdat één transactie soms meerdere panden omvatte)
@@ -66,22 +70,29 @@ Alle transacties uit `verkaufsbucher.csv`, gegeocodeerd tot punten op de kaart. 
 
 | Kolom | Betekenis |
 |---|---|
-| `gemeente_2026` | Huidige gemeente-indeling |
+| `gemeente_2026` | Indeling naar gemeenten in 2026 |
 | `transactie_id` | Koppelt terug naar de transactie (zelfde `Algemeen laufnr`) |
 | `straatnaam`, `huisnummer`, `plaats` | Ontleed adres. `huisnummer` kan meerdere nummers bevatten (bijvoorbeeld `123/125/127`) als de brontekst een adresveld met meerdere huisnummers gebruikte — die blijven bij elkaar als één adres, met één coördinaat |
 | `lat`, `lon` | Coördinaten (WGS84) |
-| `geocode_precisie` | Hoe zeker het punt is: `adres` (exact), `straat` (alleen straatniveau), `plaats` (alleen plaatsniveau), `kadastraal_onbekend` (kadastrale aanduiding, niet te geocoderen), `geen_adres` (bron vermeldt geen straatadres, bijvoorbeeld bij "Bauland" of "Weiland" — geen `lat`/`lon`, maar wel opgenomen zodat de transactie niet verdwijnt) of `failed` (niet gevonden) |
+| `geocode_precisie` | Hoe zeker het punt is: 
+- `adres` (exact)
+- `straat` (alleen straatniveau)
+- `plaats` (alleen plaatsniveau)
+- `kadastraal_onbekend` (kadastrale aanduiding, niet te geocoderen)
+- `geen_adres` (bron vermeldt geen straatadres, bijvoorbeeld bij "Bauland" of "Weiland")
+- `failed` (niet gevonden) |
 | `object` | Objecttype (bijvoorbeeld "Weiland") als er geen straatadres was |
-| `eigenaar`, `koper` | Naam van eerste eigenaar en koper |
+| `eigenaar`, `koper` | Naam van eerste eigenaar en koper. Bij sommige transacties zijn meerdere eigenaren of kopers betrokken geweest. Kijk hiervoor in de originele Verkaufsbücher-data. |
 | `verkoopprijs`, `koopdatum` | Uit de brondata |
-| `rapport` | Link(s) naar het gemeentelijke onderzoeksrapport in `rapporten/`, als daar via dit transactie is gekoppeld |
-| `filter_rapport` | Ruwe waarde uit de brondata: een bestandsnaam, `Y` (rapport bestaat, maar niet aan een specifiek bestand gekoppeld) of leeg (geen rapport) |
+| `rapport` | Link(s) naar het gemeentelijke onderzoeksrapport in `rapporten/` |
+| `filter_rapport` | Filter om alle transacties (waarde is `Y`) te zien die in een rapport worden beschreven |
 | `rapport_pagina` | Paginaverwijzing binnen dat rapport |
-| `kop_artikel`, `link_artikel` | Titel en link naar een Pointer-artikel dat dit adres uitlicht. `link_artikel` is altijd gevuld als `filter_verhaal` op `Y` staat; `kop_artikel` (de titel) is alleen bekend voor een klein deel daarvan |
-| `filter_verhaal` | `Y` als dit adres in een gepubliceerd Pointer-verhaal voorkomt (op basis van `kop_artikel`/`link_artikel` of een match met de publicatielijst) |
-| `filter_pandjesbaas` | `Y` als de koper is aangemerkt als bevestigde pandjesbaas (iemand die structureel Joods vastgoed opkocht), inclusief transacties waarbij dezelfde koper elders in de dataset al bevestigd is |
-| `filter_gemeente`, `filter_bedrijf` | Overige redactionele markeringen, gebruikt voor de filters op de kaart |
-| `needs_review` | `True` als dit punt extra archiefonderzoek verdient, `False` als het adres met voldoende zekerheid vaststaat |
+| `kop_artikel`, `link_artikel` | Titel en link naar een Pointer-artikel dat over die transactie gaat |
+| `filter_verhaal` | Filter om alle transacties (waarde is `Y`) te zien die in een gepubliceerd Pointer-verhaal voorkomt |
+| `filter_pandjesbaas` | Filter om alle transacties (waarde is `Y`) te zien waarvan een van de kopers is aangemerkt als pandjesbaas (iemand die minimaal 5 panden heeft gekocht) |
+| `filter_gemeente` | Filter om alle transacties (waarde is `Y`) te zien waarbij een gemeente de koper was|
+| `filter_bedrijf` | Filter om alle transacties (waarde is `Y`) te zien waarbij een bedrijf de koper was |
+| `needs_review` | `True` als dit coördinaat niet nauwkeurig genoeg is om op de kaart weer te geven, `False` als het adres met voldoende zekerheid is bepaald |
 
 ### 🏛️ gegevens_gemeenten.csv
 
@@ -92,19 +103,21 @@ Onderzoeksstatus en kwaliteitsbeoordeling per gemeente, samengesteld uit twee br
 | `gemeente` | Gemeentenaam |
 | `transacties` | Aantal Verkaufsbücher-transacties in deze gemeente |
 | `transacties_gemeente` | Aantal transacties waarbij de gemeente zelf koper was |
-| `onderzoek_nodig` | Of onderzoek naar deze gemeente relevant is |
+| `onderzoek_nodig` | Gemeenten met minstens 10 transacties of waar de gemeente zelf de koper was |
 | `onderzoek` | Of de gemeente onderzoek heeft laten doen |
 | `afgerond` | Of dat onderzoek is afgerond |
-| `resultaat` | Uitkomst in het kort (bijvoorbeeld "Erkenning", "Publicatie") |
+| `resultaat` | De uitkomst van het onderzoek:
+- `Beperkt vooronderzoek` (geen officieel onderzoeksrapport gepubliceerd)
+- `Publicatie` (onderzoeksrapport gepubliceerd, maar geen reactie uit lokale politiek)
+- `Erkenning` (onderzoeksrapport gepubliceerd, met erkenning of excuses van lokale politiek)
+- `Moreel rechtsherstel` (onderzoeksrapport gepubliceerd, met + financiële compensatie of andere permanente maatregel) |
 | `onafhankelijk` | Of het onderzoek onafhankelijk is uitgevoerd |
 | `uitgevoerd_door` | Onderzoeksbureau of instelling |
 | `compensatie` | Bekend bedrag aan onderzoekskosten of compensatie |
 | `rapport` | Link(s) naar het onderzoeksrapport in `rapporten/` |
 | `onafhankelijk_uitgevoerd`, `alle_transacties_onderzocht`, `gemeentelijke_transacties_onderzocht`, `scope_voorbij_verkaufsbucher`, `actieve_rol_gemeente_bezetting`, `rechtsherstel_onderzocht`, `naoorlogse_behandeling_onderzocht`, `naheffingen_onderzocht`, `gemeenschap_betrokken` | Pointer's beoordeling per criterium (Ja/Nee), alleen gevuld voor gemeenten waarvan een rapport is doorgelicht |
-| `score_inhoud`, `score_impact` | Score van 0 tot 9 op inhoud en impact van het onderzoek |
-| `matrix` | Kwalificatie op basis van beide scores (bijvoorbeeld "Goud", "Verdwenen rapport") |
 
-Niet elke gemeente is doorgelicht. Rijen zonder score-kolommen betekenen dat Pointer dat rapport (nog) niet heeft beoordeeld, niet dat het rapport ontbreekt.
+Niet elke gemeente is doorgelicht, omdat nog niet elke gemeente een onderzoeksrapport heeft gepubliceerd. Sommige gemeenten gaan dat ook niet doen, omdat ze enkel een beperkt vooronderzoek hebben gedaan.
 
 ### 📄 rapporten/
 
@@ -114,14 +127,27 @@ De 92 gemeentelijke onderzoeksrapporten als PDF. Sommige bestandsnamen bevatten 
 
 Denk je dat een familielid in `verkaufsbucher.csv` of `locaties.csv` voorkomt? Zo kun je verder zoeken.
 
-Doorzoek eerst de CSV's op achternaam of adres. Excel, Google Sheets of R/Python werken daarvoor prima; `locaties.csv` is ook op een kaart te tonen als je de `lat`/`lon`-kolommen gebruikt.
+**Voor beginners**
+Als je een CSV-bestand opent door erop te dubbelklikken, dan is het mogelijk dat rijen en kolommen verschuiven. Heb je nog niet eerder een CSV-bestand geopend, dan vind je hieronder hoe je dat kunt doen via Excel of Google Spreadsheets.
 
-Vind je een naam, dan zijn dit goede vervolgstappen:
+In Excel ga je naar Archief > Importeren > CSV-bestand, en doorloop je alle stappen.
 
-- **Nationaal Archief, archief van het Nederlands Beheersinstituut (NBI)**: hier liggen de originele Verkaufsbücher en aanverwante dossiers over rechtsherstel na de oorlog. Doorzoekbaar via [nationaalarchief.nl](https://www.nationaalarchief.nl).
-- **WieWasWie.nl**: voor genealogisch onderzoek. Geboorte-, huwelijks- en overlijdensakten helpen om familierelaties te reconstrueren.
-- **Joods Monument** ([joodsmonument.nl](https://www.joodsmonument.nl)): biografische gegevens van Joodse Nederlanders die de Holocaust niet overleefden, vaak inclusief foto's en familieverhalen.
-- **Gemeentelijke en regionale archieven**: veel details over een specifiek pand of gezin staan niet landelijk ontsloten, maar wel in het archief van de gemeente of streekarchief waar het pand stond. Zoek op de naam van het archief plus "beeldbank" of "archiefzoeker".
+In Google Spreadsheets ga je naar Bestand > Importeren > Uploaden, en doorloop je alle stappen.
+
+**Voor gevorderden**
+Je kunt de CSV's het beste doorzoeken op achternaam of adres. Daarnaast is `locaties.csv` ook op een kaart te tonen als je de `lat`/`lon`-kolommen gebruikt.
+
+Vind je een interessante naam of adres, dan zijn dit goede vervolgstappen:
+
+- **[Nederlands Beheersinstituut](https://www.nationaalarchief.nl/onderzoeken/zoekhulpen/nederlandse-beheersinstituut-nbi-1945-1968) (NBI)**: hier liggen de dossiers van overlevenden en nabestaanden die hun woning weer wilden terugkrijgen. In dit archief zoek je op de achternaam en woonplaats van een persoon. Vervolgens kun je dat dossier ter inzage aanvragen bij het Nationaal Archief in Den Haag.
+- **[Centraal Archief Bijzondere Rechtspleging](https://www.nationaalarchief.nl/onderzoeken/zoekhulpen/centraal-archief-bijzondere-rechtspleging-cabr) (CABR)**: in dit archief vind je de dossiers van personen die na de Tweede Wereldoorlog zijn onderzocht op collaboratie. Het gaat om ruim 400.000 personen. In deze dossiers vind je getuigenverklaringen, rechterlijke oordelen en andere correspondentie. Op de website [Oorlog Voor De Rechter](https://oorlogvoorderechter.nl/) kun je zoeken op personen die in het CABR zitten: handig om mogelijke kopers van Joodse woningen te onderzoeken.
+- **[NIOD](https://www.niod.nl/home/)**: het NIOD heeft een uitgebreid archief van documenten, foto's en video's die over de Tweede Wereldoorlog gaan. Een groot deel van dat archief is gedigitaliseerd en online beschikbaar.
+- **[Oorlogsbronnen](https://www.oorlogsbronnen.nl/)**: over de Tweede Wereldoorlog zijn talloze digitale bronnen te vinden. Een van de beste startpunten voor je onderzoek is Oorlogsbronnen: deze website doorzoekt meerdere bronnen tegelijk en geeft context voor overkoepelende onderwerpen.
+- **[Arolsen Archives](https://arolsen-archives.org/en/)**: het grootste archief over slachtoffers en overlevenden van de Holocaust.
+- **[WieWasWie](https://wiewaswie.nl/)**: voor genealogisch onderzoek. Geboorte-, huwelijks- en overlijdensakten kunnen je helpen om familierelaties te reconstrueren.
+- **[Joods Monument](https://www.joodsmonument.nl)**: biografische gegevens van Joodse Nederlanders die de Holocaust niet overleefden, vaak inclusief foto's en familieverhalen.
+- **[Delpher](https://www.delpher.nl/)**: in dit krantenarchief kun je artikelen vinden van 1618 tot 1995. Over sommige panden of adressen zijn artikelen geschreven, en op sommige namen kun je (overlijdens)advertenties vinden.
+- **Gemeentelijke en regionale archieven**: veel details over een specifiek pand of gezin zijn niet in het Nationaal Archief te vinden, maar wel in het archief van de gemeente of streekarchief waar het pand stond. Daarnaast hebben veel regionale archieven grote beeldbanken met foto's. Mogelijk staat daar het pand of de persoon op die jij zoekt.
 
 Loop je vast, of vind je iets dat aanvulling of correctie verdient? Zie [Contact en meewerken](#✉️-contact-en-meewerken).
 
@@ -134,4 +160,4 @@ Deze repository combineert twee soorten materiaal met elk hun eigen herkomst:
 
 ## ✉️ Contact en meewerken
 
-Klopt er iets niet, mis je een gemeente, of heb je aanvullende informatie? Meld het via een issue op deze repository, of neem contact op met Jerry Vermanen, onderzoeksjournalist bij Pointer: jerry.vermanen@kro-ncrv.nl.
+Klopt er iets niet, mis je een gemeente, of heb je aanvullende informatie? Meld het via een issue op deze repository, of neem contact op met de redactie van Pointer: pointer@kro-ncrv.nl.
