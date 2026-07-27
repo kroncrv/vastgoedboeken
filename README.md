@@ -100,11 +100,7 @@ Onderzoeksstatus en kwaliteitsbeoordeling per gemeente, samengesteld uit twee br
 | `onderzoek_nodig` | Gemeenten met minstens 10 transacties of waar de gemeente zelf de koper was |
 | `onderzoek` | Of de gemeente onderzoek heeft laten doen |
 | `afgerond` | Of dat onderzoek is afgerond |
-| `resultaat` | De uitkomst van het onderzoek:
-- `Beperkt vooronderzoek` (geen officieel onderzoeksrapport gepubliceerd)
-- `Publicatie` (onderzoeksrapport gepubliceerd, maar geen reactie uit lokale politiek)
-- `Erkenning` (onderzoeksrapport gepubliceerd, met erkenning of excuses van lokale politiek)
-- `Moreel rechtsherstel` (onderzoeksrapport gepubliceerd, met + financiële compensatie of andere permanente maatregel) |
+| `resultaat` | De uitkomst van het onderzoek: `Beperkt vooronderzoek` (geen officieel onderzoeksrapport gepubliceerd), `Publicatie` (onderzoeksrapport gepubliceerd, maar geen reactie uit lokale politiek), `Erkenning` (onderzoeksrapport gepubliceerd, met erkenning of excuses van lokale politiek) of `Moreel rechtsherstel` (onderzoeksrapport gepubliceerd, met + financiële compensatie of andere permanente maatregel) |
 | `onafhankelijk` | Of het onderzoek onafhankelijk is uitgevoerd |
 | `uitgevoerd_door` | Onderzoeksbureau of instelling |
 | `compensatie` | Bekend bedrag aan onderzoekskosten of compensatie |
