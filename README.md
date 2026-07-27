@@ -10,15 +10,15 @@ In dit artikel lees je welke keuzes we hebben gemaakt: [placeholder]()
 
 ## Inhoud
 
-- [🏚 Over dit onderzoek](#🏚-over-dit-onderzoek)
-- [📂 De databestanden](#📂-de-databestanden)
-  - [📜 verkaufsbucher.csv](#📜-verkaufsbuchercsv)
-  - [📍 locaties.csv](#📍-locatiescsv)
-  - [🏛 gegevens_gemeenten.csv](#🏛-gegevens_gemeentencsv)
-  - [📄 rapporten/](#📄-rapporten)
-- [🔎 Zelf onderzoek doen naar je familiegeschiedenis](#🔎-zelf-onderzoek-doen-naar-je-familiegeschiedenis)
-- [⚖ Licentie en bronvermelding](#⚖-licentie-en-bronvermelding)
-- [✉ Contact en meewerken](#✉-contact-en-meewerken)
+- [🏚 Over dit onderzoek](#-over-dit-onderzoek)
+- [📂 De databestanden](#-de-databestanden)
+  - [📜 verkaufsbucher.csv](#-verkaufsbuchercsv)
+  - [📍 locaties.csv](#-locatiescsv)
+  - [🏛 gegevens_gemeenten.csv](#-gegevens_gemeentencsv)
+  - [📄 rapporten/](#-rapporten)
+- [🔎 Zelf onderzoek doen naar je familiegeschiedenis](#-zelf-onderzoek-doen-naar-je-familiegeschiedenis)
+- [⚖ Licentie en bronvermelding](#-licentie-en-bronvermelding)
+- [✉ Contact en meewerken](#-contact-en-meewerken)
 
 ## 🏚 Over dit onderzoek
 
@@ -143,7 +143,7 @@ Vind je een interessante naam of adres, dan zijn dit goede vervolgstappen:
 - **[Delpher](https://www.delpher.nl/)**: in dit krantenarchief kun je artikelen vinden van 1618 tot 1995. Over sommige panden of adressen zijn artikelen geschreven, en op sommige namen kun je (overlijdens)advertenties vinden.
 - **Gemeentelijke en regionale archieven**: veel details over een specifiek pand of gezin zijn niet in het Nationaal Archief te vinden, maar wel in het archief van de gemeente of streekarchief waar het pand stond. Daarnaast hebben veel regionale archieven grote beeldbanken met foto's. Mogelijk staat daar het pand of de persoon op die jij zoekt.
 
-Loop je vast, of vind je iets dat aanvulling of correctie verdient? Zie [Contact en meewerken](#✉-contact-en-meewerken).
+Loop je vast, of vind je iets dat aanvulling of correctie verdient? Zie [Contact en meewerken](#-contact-en-meewerken).
 
 ## ⚖ Licentie en bronvermelding
 
