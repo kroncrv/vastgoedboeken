@@ -10,17 +10,17 @@ In dit artikel lees je welke keuzes we hebben gemaakt: [placeholder]()
 
 ## Inhoud
 
-- [🏚️ Over dit onderzoek](#🏚️-over-dit-onderzoek)
+- [🏚 Over dit onderzoek](#🏚-over-dit-onderzoek)
 - [📂 De databestanden](#📂-de-databestanden)
   - [📜 verkaufsbucher.csv](#📜-verkaufsbuchercsv)
   - [📍 locaties.csv](#📍-locatiescsv)
-  - [🏛️ gegevens_gemeenten.csv](#🏛️-gegevens_gemeentencsv)
+  - [🏛 gegevens_gemeenten.csv](#🏛-gegevens_gemeentencsv)
   - [📄 rapporten/](#📄-rapporten)
 - [🔎 Zelf onderzoek doen naar je familiegeschiedenis](#🔎-zelf-onderzoek-doen-naar-je-familiegeschiedenis)
-- [⚖️ Licentie en bronvermelding](#⚖️-licentie-en-bronvermelding)
-- [✉️ Contact en meewerken](#✉️-contact-en-meewerken)
+- [⚖ Licentie en bronvermelding](#⚖-licentie-en-bronvermelding)
+- [✉ Contact en meewerken](#✉-contact-en-meewerken)
 
-## 🏚️ Over dit onderzoek
+## 🏚 Over dit onderzoek
 
 Tijdens de Tweede Wereldoorlog verkochten de Duitse bezetters panden van eigenaren die vaak Joods waren. Het ging in totaal om circa 7.500 transacties. De administratie daarvan hield de bezetter bij in de zogeheten Verkaufsbücher: achttien boeken, waarvan het eerste (met laufnummer 1 tot 449) verloren is gegaan.
 
@@ -88,7 +88,7 @@ Alle transacties uit `verkaufsbucher.csv`, gegeocodeerd tot punten op de kaart. 
 | `filter_bedrijf` | Filter om alle transacties (waarde is `Y`) te zien waarbij een bedrijf de koper was |
 | `needs_review` | `True` als dit coördinaat niet nauwkeurig genoeg is om op de kaart weer te geven, `False` als het adres met voldoende zekerheid is bepaald |
 
-### 🏛️ gegevens_gemeenten.csv
+### 🏛 gegevens_gemeenten.csv
 
 Onderzoeksstatus en kwaliteitsbeoordeling per gemeente, samengesteld uit twee brontabellen: welk onderzoek een gemeente heeft laten doen, en hoe Pointer dat onderzoek beoordeelde.
 
@@ -143,15 +143,15 @@ Vind je een interessante naam of adres, dan zijn dit goede vervolgstappen:
 - **[Delpher](https://www.delpher.nl/)**: in dit krantenarchief kun je artikelen vinden van 1618 tot 1995. Over sommige panden of adressen zijn artikelen geschreven, en op sommige namen kun je (overlijdens)advertenties vinden.
 - **Gemeentelijke en regionale archieven**: veel details over een specifiek pand of gezin zijn niet in het Nationaal Archief te vinden, maar wel in het archief van de gemeente of streekarchief waar het pand stond. Daarnaast hebben veel regionale archieven grote beeldbanken met foto's. Mogelijk staat daar het pand of de persoon op die jij zoekt.
 
-Loop je vast, of vind je iets dat aanvulling of correctie verdient? Zie [Contact en meewerken](#✉️-contact-en-meewerken).
+Loop je vast, of vind je iets dat aanvulling of correctie verdient? Zie [Contact en meewerken](#✉-contact-en-meewerken).
 
-## ⚖️ Licentie en bronvermelding
+## ⚖ Licentie en bronvermelding
 
 Deze repository combineert twee soorten materiaal met elk hun eigen herkomst:
 
 - **`data/verkaufsbucher.csv`** is Nationaal Archief open data. Het Nationaal Archief heeft zelf afstand gedaan van auteursrecht op dit bestand (zie [hierboven](#over-de-originele-verkaufsbücher-data)). Voor dit bestand geldt dus geen Pointer-licentie.
 - **Alle overige bestanden** (`locaties.csv`, `gegevens_gemeenten.csv`, de rapporten in `rapporten/`, en deze README) zijn eigen werk van Pointer (KRO-NCRV), gepubliceerd onder [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/deed.nl) (CC BY 4.0). Je mag dit materiaal gebruiken en aanpassen, ook commercieel, mits je Pointer (KRO-NCRV) als bron vermeldt. Volledige tekst in [LICENSE](LICENSE).
 
-## ✉️ Contact en meewerken
+## ✉ Contact en meewerken
 
 Klopt er iets niet, mis je een gemeente, of heb je aanvullende informatie? Meld het via een issue op deze repository, of neem contact op met de redactie van Pointer: pointer@kro-ncrv.nl.
