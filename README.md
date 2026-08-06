@@ -74,7 +74,7 @@ Alle transacties uit `verkaufsbucher.csv`, gegeocodeerd tot punten op de kaart. 
 | `transactie_id` | Koppelt terug naar de transactie (zelfde `Algemeen laufnr`) |
 | `straatnaam`, `huisnummer`, `plaats` | Ontleed adres. `huisnummer` kan meerdere nummers bevatten (bijvoorbeeld `123/125/127`) als de brontekst een adresveld met meerdere huisnummers gebruikte — die blijven bij elkaar als één adres, met één coördinaat |
 | `lat`, `lon` | Coördinaten (WGS84) |
-| `geocode_precisie` | Hoe zeker het punt is: `adres` (exact), `straat` (alleen straatniveau), `plaats` (alleen plaatsniveau), `kadastraal_onbekend` (kadastrale aanduiding, niet te geocoderen), `geen_adres` (bron vermeldt geen straatadres, bijvoorbeeld bij "Bauland" of "Weiland") of `failed` (niet gevonden) |
+| `geocode_precisie` | Hoe zeker het punt is: `adres` (exact), `handmatig` (coördinaat handmatig gecontroleerd/aangeleverd, bijvoorbeeld via een lezerstip — niet door PDOK gegokt), `straat` (alleen straatniveau), `plaats` (alleen plaatsniveau), `kadastraal_onbekend` (kadastrale aanduiding, niet te geocoderen), `geen_adres` (bron vermeldt geen straatadres, bijvoorbeeld bij "Bauland" of "Weiland") of `failed` (niet gevonden) |
 | `object` | Objecttype (bijvoorbeeld "Weiland") als er geen straatadres was |
 | `eigenaar`, `koper` | Naam van eerste eigenaar en koper. Bij sommige transacties zijn meerdere eigenaren of kopers betrokken geweest. Kijk hiervoor in de originele Verkaufsbücher-data. |
 | `verkoopprijs`, `koopdatum` | Uit de brondata |
