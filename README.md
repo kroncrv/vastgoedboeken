@@ -1,6 +1,6 @@
 # Vastgoedboeken: roofhandel van Joods vastgoed in Nederland tijdens WOII
 
-Databestanden en gemeentelijke onderzoeksrapporten bij het onderzoek van Pointer (KRO-NCRV) naar de roofhandel van Joods vastgoed door de Duitse bezetter, en hoe Nederlandse gemeenten daarmee zijn omgegaan.
+Databestanden en alle gemeentelijke rapporten van De Vastgoedboeken: het onderzoek van Pointer (KRO-NCRV) naar de roofhandel van Joods vastgoed tijdens de Tweede Wereldoorlog, en of Nederlandse gemeenten hun eigen rol daarin hebben onderzocht.
 
 Alle publicaties over dit onderzoek: [pointer.nl/vastgoedboeken](https://pointer.nl/vastgoedboeken).
 
@@ -17,14 +17,18 @@ In dit artikel lees je welke keuzes we hebben gemaakt: [placeholder]()
   - [🏛 gegevens_gemeenten.csv](#-gegevens_gemeentencsv)
   - [📄 rapporten/](#-rapporten)
 - [🔎 Zelf onderzoek doen naar je familiegeschiedenis](#-zelf-onderzoek-doen-naar-je-familiegeschiedenis)
+  - [🗂️ Bestanden openen](#-bestanden-openen)
+  - [🗄️ Archiefonderzoek](#_archiefonderzoek)
 - [⚖ Licentie en bronvermelding](#-licentie-en-bronvermelding)
 - [✉ Contact en meewerken](#-contact-en-meewerken)
 
 ## 🏚 Over dit onderzoek
 
-Tijdens de Tweede Wereldoorlog verkochten de Duitse bezetters panden van eigenaren die vaak Joods waren. Het ging in totaal om circa 7.500 transacties. De administratie daarvan hield de bezetter bij in de zogeheten Verkaufsbücher: achttien boeken, waarvan het eerste (met laufnummer 1 tot 449) verloren is gegaan.
+Tijdens de Tweede Wereldoorlog zijn Joodse woningen, bedrijfspanden, begraafplaatsen, synagogen en stukken grond onteigend en doorverkocht door de Duitse bezetter. Het ging om ongeveer 7.500 transacties van zo'n 9.000 panden.
 
-Na de oorlog kwamen de Verkaufsbücher in het archief van het Nederlandse Beheersinstituut (NBI) terecht. Het Nationaal Archief heeft de inhoud gedigitaliseerd en als open data gepubliceerd. Pointer onderzoekt sinds 2020 of gemeenten de woningen aan de overlevenden of nabestaanden heeft teruggegeven. En belangrijker: hoe gmeeenten daarmee zijn omgegaan.
+De administratie van deze roofhandel werd bijgehouden in de zogeheten Verkaufsbücher: achttien boeken met handgeschreven transacties, waarvan het eerste boek verloren is gegaan.
+
+Na de oorlog kwamen de Verkaufsbücher in bezit van het Nationaal Archief. Zij hebben de inhoud gedigitaliseerd en [als open data gepubliceerd](https://www.nationaalarchief.nl/onderzoeken/open-data/open-data-indexen). Pointer doet sinds 2020 jaarlijks een rondvraag onder de gemeenten die in de Verkaufsbücher worden genoemd: is het onteigende vastgoed na de bevrijding weer teruggegeven aan de terugkeerders of nabestaanden. En wat was de rol van de gemeenten in deze roofhandel?
 
 Deze repository bevat de brondata, de resultaten van dat gemeenteonderzoek, en de onderliggende rapporten. Zo kan iedereen nagaan waar de bevindingen op zijn gebaseerd en zelf verder zoeken naar een pand of familie.
 
@@ -34,9 +38,9 @@ Onderstaande uitleg komt rechtstreeks van het Nationaal Archief, en hoort bij `d
 
 > Voor zover de wet dit toestaat geeft het Nationaal Archief betreffende dit bestand (verkaufsbucher20170509.csv) de auteursrechten en naburige rechten op, samen met alle aanverwante claims. Dit werk is gepubliceerd vanuit Nederland.
 
-De volledige, actuele bronpublicatie staat op [nationaalarchief.nl/onderzoeken/open-data/open-data-indexen](https://www.nationaalarchief.nl/onderzoeken/open-data/open-data-indexen).
+De oorspronkelijke bronpublicatie staat op [nationaalarchief.nl/onderzoeken/open-data/open-data-indexen](https://www.nationaalarchief.nl/onderzoeken/open-data/open-data-indexen).
 
-De kolommen in het originele bestand zijn ingedeeld in vijf blokken:
+In dit bestand worden transacties op de volgende manier beschreven:
 
 - **Algemeen**: toegangsnummer (2.09.16, het NBI-archief), inventarisnummer, laufnummer (volgnummer) en beheernummer (Verwaltungsnummer)
 - **Te verkopen panden**: plaats, adres(sen), naam/adres/woonplaats van de eigenaar(s)
@@ -62,11 +66,11 @@ Kolommen die je nodig hebt om een transactie te beschrijven:
 - `Notaris(sen) Notaris 1`, `Beheerder(s) Beheerder 1` — betrokken notaris en beheerder
 - `Financiėle gegegevens Verkoopprijs`, `Aanbetaling`, `nettobedrag` — de financiële afhandeling
 
-Overige kolommen volgen dezelfde indeling als hierboven beschreven bij [Over de originele Verkaufsbücher-data](#over-de-originele-verkaufsbücher-data).
+De overige kolommen volgen dezelfde indeling als hierboven beschreven bij [Over de originele Verkaufsbücher-data](#over-de-originele-verkaufsbücher-data).
 
 ### 📍 locaties.csv
 
-Alle transacties uit `verkaufsbucher.csv`, gegeocodeerd tot punten op de kaart. Eén transactie kan meerdere rijen hebben als er meerdere panden bij hoorden.
+Alle adressen uit `verkaufsbucher.csv`, aangevuld met coördinaten. Eén transactie kan meerdere adressen bevatten.
 
 | Kolom | Betekenis |
 |---|---|
@@ -90,7 +94,7 @@ Alle transacties uit `verkaufsbucher.csv`, gegeocodeerd tot punten op de kaart. 
 
 ### 🏛 gegevens_gemeenten.csv
 
-Onderzoeksstatus en kwaliteitsbeoordeling per gemeente, samengesteld uit twee brontabellen: welk onderzoek een gemeente heeft laten doen, en hoe Pointer dat onderzoek beoordeelde.
+De onderzoeksstatus en beoordeling per gemeente. Welk onderzoek een gemeente heeft laten doen, en hoe volledig dat onderzoek is.
 
 | Kolom | Betekenis |
 |---|---|
@@ -107,15 +111,19 @@ Onderzoeksstatus en kwaliteitsbeoordeling per gemeente, samengesteld uit twee br
 | `rapport` | Link(s) naar het onderzoeksrapport in `rapporten/` |
 | `onafhankelijk_uitgevoerd`, `alle_transacties_onderzocht`, `gemeentelijke_transacties_onderzocht`, `scope_voorbij_verkaufsbucher`, `actieve_rol_gemeente_bezetting`, `rechtsherstel_onderzocht`, `naoorlogse_behandeling_onderzocht`, `naheffingen_onderzocht`, `gemeenschap_betrokken` | Pointer's beoordeling per criterium (Ja/Nee), alleen gevuld voor gemeenten waarvan een rapport is doorgelicht |
 
-Niet elke gemeente is doorgelicht, omdat nog niet elke gemeente een onderzoeksrapport heeft gepubliceerd. Sommige gemeenten gaan dat ook niet doen, omdat ze enkel een beperkt vooronderzoek hebben gedaan.
+De gemeenten Amsterdam, Rotterdam, Utrecht en Den Haag hebben een onderzoek gepubliceerd voordat Pointer aan de rondvraag begon. Hoewel die rapporten wel beschikbaar zijn, hebben we de onderzoeksopzet daarvan niet beoordeeld.
+
+Niet elke gemeente heeft een onderzoeksrapport gepubliceerd. Sommige gemeenten hebben enkel een beperkt vooronderzoek gedaan.
 
 ### 📄 rapporten/
 
-De 92 gemeentelijke onderzoeksrapporten als PDF. Sommige bestandsnamen bevatten meerdere gemeenten (bijvoorbeeld "Aalsmeer, Amstelveen, Beverwijk...pdf"), omdat die gemeenten samen één onderzoek lieten uitvoeren.
+De gemeentelijke onderzoeksrapporten als PDF. Sommige bestandsnamen bevatten meerdere gemeenten (bijvoorbeeld "Aalsmeer, Amstelveen, Beverwijk...pdf"), omdat die gemeenten een gezamenlijk onderzoek hebben laten uitvoeren.
 
 ## 🔎 Zelf onderzoek doen naar je familiegeschiedenis
 
-Denk je dat een familielid in `verkaufsbucher.csv` of `locaties.csv` voorkomt? Zo kun je verder zoeken.
+Ben je nieuwsgierig geworden naar een familielid of adres in `verkaufsbucher.csv` of `locaties.csv`? Hieronder vind je een aantal tips om verder te zoeken.
+
+### 🗂️ Databestanden openen
 
 **Voor beginners**
 Als je een CSV-bestand opent door erop te dubbelklikken, dan is het mogelijk dat rijen en kolommen verschuiven. Heb je nog niet eerder een CSV-bestand geopend, dan vind je hieronder hoe je dat kunt doen via Excel of Google Spreadsheets.
@@ -126,6 +134,8 @@ In Google Spreadsheets ga je naar Bestand > Importeren > Uploaden, en doorloop j
 
 **Voor gevorderden**
 Je kunt de CSV's het beste doorzoeken op achternaam of adres. Daarnaast is `locaties.csv` ook op een kaart te tonen als je de `lat`/`lon`-kolommen gebruikt.
+
+### 🗄️ Archiefonderzoek
 
 Vind je een interessante naam of adres, dan zijn dit goede vervolgstappen:
 
