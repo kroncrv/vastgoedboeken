@@ -1188,7 +1188,7 @@ Waalwijk,2131,Mr. Van Coothstraat,16/18,Waalwijk,51.6881355,5.06293125,adres,,J.
 Rotterdam,2132,Bergschelaan,61,Rotterdam,51.92248806,4.48653571,plaats,,A. v. Dam,M. Metselaar,,15000,11-3-1943,,,,,,,,,,True
 Rotterdam,2133,Krekelstraat,2/10,Rotterdam,51.92369,4.50420384,adres,,J. Broekman,J.J. Meulenkamp,,83000,16-2-1943,,,,,,,,,,True
 Rotterdam,2134,Alyda van Spangensingel,23,Hillegersberg,51.95815582,4.48815844,adres,,E. Eschenheimer,J.G. Barto,,15000,15-1-1943,,,,,,,,,,False
-Rotterdam,2135,Nieuwe Binnenweg,237/239,Rotterdam,51.91349645,4.46117783,adres,,E. de Graaff-Westerborg,J. Koomen,,44000,18-12-1942,,,,,,,Y,,,True
+Rotterdam,2135,Nieuwe Binnenweg,237/239,Rotterdam,51.91349645,4.46117783,adres,,E. de Graaff-Westerborg,J. Koomen,,44000,18-12-1942,,,,,,,,,,True
 Rotterdam,2136,Noordplein,34,Rotterdam,51.92971983,4.48454873,adres,,R. Sanders,W.J. Doornbos,,16000,19-1-1943,,,,,,,,,,False
 Rotterdam,2136,Noorderstraat,5,Rotterdam,51.92248806,4.48653571,plaats,,R. Sanders,W.J. Doornbos,,16000,19-1-1943,,,,,,,,,,True
 Voorne aan Zee,2137,Westkade,57/59,Hellevoetsluis,51.82136525,4.12797532,straat,,D.C. Cats-Cohen u. G.,F.G. Tieman,,1650,29-1-1943,,Y,14,,,,,,,True
@@ -1808,7 +1808,7 @@ Leeuwarden,2730,Heerestraat,19,Leeuwarden,53.20148123,5.79906808,adres,,B. Lormi
 Leeuwarden,2731,Schalkburgerstraat,14,Leeuwarden,53.2006597,5.80308902,plaats,,M.v. Kollem,O. Wouda;J.W. v.d. Velde,,2700,3-3-1943,,,,,,,,,,True
 Leeuwarden,2732,Groningerplein,9,Leeuwarden,53.20851308,5.80611587,adres,,M.v. Kollem,H. Conrad,,11500,3-3-1943,,,,,,,,,,False
 Capelle aan den IJssel,2733,Bermweg,458/460,Capelle aan den IJssel,51.94154759,4.58761956,adres,,V. Frank-Cohen,H.P.J. Knetemann,1005,4250,25-2-1943,,,,,,,Y,,,True
-Rotterdam,2734,Statenweg,53/63,Rotterdam,51.93254703,4.4558747,adres,,J v.d. Heyden,J. Koomen;P.A. Luipont,;,125000,30-3-1943,,,,,,,Y,,,True
+Rotterdam,2734,Statenweg,53/63,Rotterdam,51.93254703,4.4558747,adres,,J v.d. Heyden,J. Koomen;P.A. Luipont,;,125000,30-3-1943,,,,,,,,,,True
 Groningen,2735,Munnekeholm,14,Groningen,53.21526491,6.56216051,adres,,P. Kisch-Calff,J.C. Kamphuis,,13500,25-2-1943,,,,,,,,,,False
 Groningen,2736,Paterswoldscheweg,170/170a/170b,Groningen,53.20648483,6.55850157,adres,,H.G. Pinto,R. Ouwinga,,17000,5-3-1943,,,,,,,,,,True
 s Gravenhage,2737,Delftschelaan,44/54,Den Haag,52.07207291,4.29300083,plaats,,J. Opdenberg,S. Bleyenberg,,22000,4-2-1943,,,,,,,,,,True
@@ -1891,7 +1891,7 @@ Amsterdam,2811,Van Eeghenstraat,199,Amsterdam,52.35578179,4.86787193,adres,,F. L
 Amsterdam,2811,Koninginneweg,5,Amsterdam,52.35573699,4.86790182,adres,,F. Loeb,S. Seemann,,16000,14-7-1943,,,,,,,,,,False
 Amsterdam,2812,Muiderschans,26,Amsterdam,52.37344272,4.90454379,plaats,,M. Prins,N.V. Amsterdamsche Bank,,19000,11-3-1943,,,,,,,,,Y,True
 Coevorden,2813,Aleida Kramerstraat,16/16a,Coevorden,52.66376085,6.74110368,straat,,R. de Levie-v. Gelder,J. Jonker;J. Jonker-Meyerink,,8000,26-6-1943,,Y,8,,,,,,,True
-Hilversum,2814,Orionlaan,2/4/6,Hilversum,52.23371917,5.19650646,adres,,Wertheim & Boas,W.B. Lise,,12000,18-2-1943,,,,,,,Y,,,True
+Hilversum,2814,Orionlaan,2/4/6,Hilversum,52.23371917,5.19650646,adres,,Wertheim & Boas,W.B. Lise,,12000,18-2-1943,,,,,,,,,,True
 s Gravenhage,2815,Weteringkade,83/85,Den Haag,52.07432135,4.32793117,adres,,Wwe. v. Tijn-Abrahamson,E.J.M. Dullaert,,13000,2-3-1943,,,,,,,,,,True
 Leidschendam-Voorburg,2816,Heerenstraat,102,Voorburg,52.07621858,4.36352589,plaats,,J.G. Hertz,A.J. Gerritsen,,6500,25-3-1943,,,,,,,,,,True
 Oldenzaal,2817,Boterstraat,5,Oldenzaal,52.3134231,6.92835021,adres,,L. Melammet,J.H. Deeterman,,2500,15-3-1943,,,,,,,,,,False
@@ -1990,7 +1990,7 @@ Amsterdam,2903,Heerengracht,144,Amsterdam,52.37344272,4.90454379,plaats,,H. v. E
 Amsterdam,2904,Van Eeghenlaan,34,Amsterdam,52.35807249,4.87416299,adres,,A. Otmingshuys-Polak,J. Orrmeling,,17500,20-4-1943,,,,,,,,,,False
 Amsterdam,2905,Botticellistraat,29,Amsterdam,52.34765311,4.86906775,adres,,J. v. Raalte,R.A. Bontsema,1080,11000,31-3-1943,,,,,,,Y,,,False
 Amsterdam,2906,Valeriusstraat,192,Amsterdam,52.35262212,4.86266892,adres,,L. Davidson u. G.,G.H. Janssen,,17000,24-2-1943,,,,,,,,,,False
-Amsterdam,2907,Schubertstraat,33,Amsterdam,52.34625431,4.87810965,adres,,H. Lindeman,R.A. Bentsema,,18000,19-2-1943,,,,,,,Y,,,False
+Amsterdam,2907,Schubertstraat,33,Amsterdam,52.34625431,4.87810965,adres,,H. Lindeman,R.A. Bentsema,,18000,19-2-1943,,,,,,,,,,False
 Amsterdam,2908,Chopinstraat,12,Amsterdam,52.3476877,4.87912054,adres,,B. Maykels,R.A. Bontsema,1080,12000,23-3-1943,,,,,,,Y,,,False
 Amsterdam,2909,Richard Wagnerstraat,42,Amsterdam,52.3458348,4.87878953,adres,,Erb. H. Blitz,J.C. Voogd,1003,13500,16-4-1943,,,,,,,Y,,,False
 Amsterdam,2910,Cabotstraat,12,Amsterdam,52.36817152,4.85474714,adres,,L. Engelsman,J. Reynhoudt;J.C. Termaat,1039;1049,7000,10-3-1943,,,,,,,Y,,,False
@@ -2046,7 +2046,7 @@ Doetinchem,2956,Kapoeniestraat,14,Doetinchem,51.9658145,6.28608747,adres,,J. Phi
 Amersfoort,2957,Van Limburg Stirumlaan,16,Amersfoort,52.15016734,5.36625944,adres,,L.S. Snoek,W. Asterkamp. Stuhr,,15000,26-2-1943,,,,,,,,,,False
 Arnhem,2958,Veluwestraat,33/35/43/45,Arnhem,51.98800854,5.88985968,adres,,L. Gosschalk-Snatager,H.W. Groosse,,15000,22-4-1943,,,,,,,,,,True
 Utrecht,2959,Willem van Noortstraat,46/46bis,Utrecht,52.10087049,5.12007254,adres,,A.J.M.M.W. Pappie,G.J. Hissink,,9000,28-4-1943,,,,,,,,,,True
-Leiden,2960,Laat de Kanterstraat,15,Leiden,52.15211656,4.501548,adres,,P. Boesson-Cohen,J.P.J. Ramb;A.W. Ramb;A.W.C. lamb;V. Lamb,;;;,12600,26-2-1943,,,,,https://pointer.kro-ncrv.nl/leidse-vrienden-kochten-geroofd-joods-vastgoed,Y,Y,,,False
+Leiden,2960,Laat de Kanterstraat,15,Leiden,52.15211656,4.501548,adres,,P. Boesson-Cohen,J.P.J. Ramb;A.W. Ramb;A.W.C. lamb;V. Lamb,;;;,12600,26-2-1943,,,,,https://pointer.kro-ncrv.nl/leidse-vrienden-kochten-geroofd-joods-vastgoed,Y,,,,False
 Hilversum,2961,Gijsbrecht van Amstelstraat,156,Hilversum,52.2159656,5.1689031,adres,,A. de Lange-Frankfort,J.A. Tapking,1062,9000,6-4-1943,,,,,,,Y,,,False
 Huizen,2962,Crailoscheweg,9,Huizen,52.27620216,5.20697467,adres,,M.S. Teulings-Nathusius,O.K. Müller,,8000,21-5-1943,,,,,,,,,,True
 Hilversum,2963,Starninglaan,35/41,Hilversum,52.22310922,5.16803652,plaats,,F.S. Groen;S.B. Groen,R. Gill,1018,24500,9-4-1943,,,,,,,Y,,,True
@@ -4696,7 +4696,7 @@ Epe,6267,Brinklaan,C 196,Epe,52.34739306,5.98563536,adres,,S. v. Delft,J.H.A. Bo
 Steenwijkerland,6268,Zuiderstraat,318,Blokzijl,52.72543654,5.9607919,straat,,M. de Horst,T.B. Harkema,,200,30-8-1943,,Y,"17, 29, 30, 54",,,,,,,True
 Maasdriel,6269,Kerkstraat,A 71,Rossum,51.80091123,5.33783775,adres,,A. Kalker;R. Kalker,C.J. v. Hekeren,,3500,7-10-1943,,,,,,,,,,True
 Rotterdam,627,Berglustlaan,82,Hillegersberg,51.95645907,4.48866889,adres,,M. v. Buren,R. Loots,1028,11000,7-8-1942,,,,,,,Y,,,False
-Doetinchem,6270,Simonsplein 2+4 hoek Heezenstraat,,Doetinchem,51.96537978,6.28882314,straat,,J. Slösser,W.S. Hap,,10000,19-8-1943,,,,,,,Y,,,True
+Doetinchem,6270,Simonsplein 2+4 hoek Heezenstraat,,Doetinchem,51.96537978,6.28882314,straat,,J. Slösser,W.S. Hap,,10000,19-8-1943,,,,,,,,,,True
 Arnhem,6271,Rijnkade,106,Arnhem,51.97853148,5.90411986,adres,,H. Braun,C.W. Slecher,,6250,20-8-1943,,,,,,,,,,True
 Haarlem,6272,Rijksstraatweg,,Haarlem,52.41152935,4.65099787,straat,,H.C. Stuur,N.V. Bouw. En Expl. Mij Bon Ami,,1750,21-4-1943,,,,,,,,,Y,True
 Amsterdam,6273,Linnaeusparkweg,40,Amsterdam,52.354504,4.93307374,adres,,J. Vorst,F.J.A. de Calavon,,15500,10-9-1943,,,,,,,,,,False
@@ -4762,7 +4762,7 @@ Montferland,6326,Kellerstraat,50,s-Heerenberg,51.87886652,6.25229579,plaats,,S. 
 Berkelland,6327,Weemhof,A 58,Borculo,52.11533548,6.5248129,straat,,N. Elzas,G.I. Blekkink,,4000,2-11-1943,,Y,80,,,,,,,True
 Berkelland,6327,Gasthuisstraat,A 57,Borculo,52.11494036,6.52485382,straat,,N. Elzas,G.I. Blekkink,,4000,2-11-1943,,Y,80,,,,,,,True
 Berkelland,6328,Muraltplein,A 170,Borculo,52.11552052,6.52359621,straat,,N. Elzas,J.C. Hoogeveen Sr.;J.C.J. Hoogeveen;J.C. Hoogeveen,,5600,20-9-1943,,Y,80,,,,,,,True
-Gooise Meren,6329,Havenstraat,2,Bussum,52.27515873,5.1650745,straat,,H. Druijff,W.J. Fusser,,18000,4-11-1943,,,,,,,Y,,,True
+Gooise Meren,6329,Havenstraat,2,Bussum,52.27515873,5.1650745,straat,,H. Druijff,W.J. Fusser,,18000,4-11-1943,,,,,,,,,,True
 Schiedam,633,Korte Achterweg,19,Schiedam,51.91669786,4.39878797,straat,,D. Cohen,S.M. Bosman,1078,3500,18-9-1942,,,,,,,Y,,,True
 Terneuzen,6330,Nieuwe Verbindingsstraat,,Terneuzen,51.32899532,3.85981161,straat,,I. Fonteijn,J. Traanje,,450,16-9-1943,,,,,,,,,,True
 Zutphen,6331,Beukerstraat,48,Zutphen,52.14110458,6.19794327,adres,,S. Frankfort,B.A. Tomassen,,5600,,,,,,,,,,,False
@@ -4878,7 +4878,7 @@ Heemstede,6428,Crayenestersingel,8,Heemstede,52.35820345,4.6218245,adres,,W. Lem
 De Wolden,6429,Westerstraat,A 471,Ruinen,52.76379738,6.35538711,straat,,M. Meiboom,J. Habing,1130,9300,6-1-1944,,,,,,,Y,,,True
 Amsterdam,643,Celebesstraat,9/10/11,Amsterdam,52.36503256,4.93176207,adres,,B. Manus,J.H. Breman;J.M.P. Capel,1007;1047,77000,16-10-1942,,,,,,,Y,,,True
 Amsterdam,643,Delistraat,1/3/5,Amsterdam,52.36533843,4.93285772,straat,,B. Manus,J.H. Breman;J.M.P. Capel,1007;1047,77000,16-10-1942,,,,,,,Y,,,True
-Laren,6430,Oude Naarderweg,1,Laren,52.26024703,5.22349102,adres,,C. v.d. Tonge-Koster,N.J. Bos,,7500,11-10-1943,,,,,,,Y,,,False
+Laren,6430,Oude Naarderweg,1,Laren,52.26024703,5.22349102,adres,,C. v.d. Tonge-Koster,N.J. Bos,,7500,11-10-1943,,,,,,,,,,False
 Veendam,6431,Zuiderlaan,51/53,Veendam,53.09768665,6.90267422,plaats,,S.H. Polak u. Gen.,W. Nieland,,8325,1-10-1943,,,,,,,,,,True
 Assen,6432,Rolderstraat,5,Assen,52.99613478,6.56424753,adres,,S. Wolf,L. Sluiter,,9000,7-10-1943,,,,,,,,,,False
 Assen,6433,Alteveerstraat,92,Assen,52.9955529,6.55577128,adres,,R. Mosis,W. Baas,,4400,1-10-1943,,,,,,,,,,False
@@ -5279,8 +5279,8 @@ Groningen,678,Groote Kromme Elleboog,2,Groningen,53.21859089,6.56232365,adres,,S
 Amsterdam,6780,Vondelstraat,15,Amsterdam,52.36213418,4.87776596,adres,,C. de Leeuw-Minkenhof,F.R.T. Kröner,,25000,22-2-1944,,,,,,,,,,False
 Amsterdam,6781,Oosteinde,23,Amsterdam,52.35899942,4.90175957,adres,,,A. Vreeling,1022,17000,3-1-1944,,,,,,,Y,,,False
 Hengelo,6782,Leerestraat,36/38,Hengelo,52.25490615,6.77819416,plaats,,M.B.T. Menco,Gemeente Hengelo,,"7951,93",,,,,,,,,Y,,True
-Borne,6783,Kanaalstraat,2,Borne,52.30103715,6.74829249,plaats,,J.J. Spanjaard,N. Mütze,,31575,,,,,,,,Y,,,True
-Borne,6783,Deldenschestraat,71,Borne,52.30103715,6.74829249,plaats,,J.J. Spanjaard,N. Mütze,,31575,,,,,,,,Y,,,True
+Borne,6783,Kanaalstraat,2,Borne,52.30103715,6.74829249,plaats,,J.J. Spanjaard,N. Mütze,,31575,,,,,,,,,,,True
+Borne,6783,Deldenschestraat,71,Borne,52.30103715,6.74829249,plaats,,J.J. Spanjaard,N. Mütze,,31575,,,,,,,,,,,True
 Amsterdam,6784,Biesboschstraat,61/63,Amsterdam,52.34500428,4.89709913,adres,,S.E. de Vries,E. Neubauer,1097,36000,14-6-1944,,,,,,,Y,,,True
 Amsterdam,6785,Biesboschstraat,65,Amsterdam,52.34494901,4.89677688,adres,,M. Susan,E. Neubauer,1097,18000,12-6-1944,,,,,,,Y,,,False
 Amsterdam,6786,Jekerstraat,21/23,Amsterdam,52.345899,4.89829265,adres,,J.R. Fahrer;C. Unger,E. Neubauer,1097,16000,2-3-1944,,,,,,,Y,,,True
@@ -6050,7 +6050,7 @@ Heerlen,744,Tempsplein,12,Heerlen,50.88501729,5.97887283,adres,,S. Herzdahl,J.J.
 Amsterdam,7440,Geleenstraat,20/34,Amsterdam,52.34453367,4.89415462,adres,,H. David,R. Vogel,,64000,4-4-1944,,,,,,,,,,True
 Amsterdam,7441,Dijkstraat,35,Amsterdam,52.37150663,4.9013054,straat,,N. Buitenkant,H.C. Albers,1015,1325,10-2-1944,,,,,,,Y,,,True
 Amsterdam,7442,Plantage Franschelaan,28,Amsterdam,52.36602309,4.91166664,adres,,L. Minkenhof u. Gen.,W. de Lange,,10500,8-3-1944,,,,,,,,,,False
-Amsterdam,7443,Linnaeuspark,43,Amsterdam,52.37344272,4.90454379,plaats,,A.H. Ramm u. Gen.,C.L. Dekkers,,1125,15-2-1944,,,,,,,Y,,,True
+Amsterdam,7443,Linnaeuspark,43,Amsterdam,52.37344272,4.90454379,plaats,,A.H. Ramm u. Gen.,C.L. Dekkers,,1125,15-2-1944,,,,,,,,,,True
 Rotterdam,7444,Heemraadsingel,191,Rotterdam,51.92248806,4.48653571,plaats,,G. Akker-Frankfort,G. Verwaal,1135,28000,15-3-1944,,,,,,,Y,,,True
 Gooise Meren,7445,Voormeulenweg,1/3,Bussum,52.27197404,5.17133107,adres,,A. Koppels,Z.T. Nelemans,,9500,25-2-1944,,,,,,,,,,True
 s Gravenhage,7446,Verdistraat,57/71/59/63,Loosduinen,,,failed,,M.J. Witsers,C.H. Dijkhuizen,,24000,,,,,,,,,,,True
@@ -6074,7 +6074,7 @@ Amsterdam,7461,Messchaertstraat,2,Amsterdam,52.34536164,4.88374057,adres,,A. Hee
 Amsterdam,7462,Roerstraat,21/23/25/27,Amsterdam,52.3448256,4.89953719,adres,,I. Polak,R. Vogel,,33000,4-4-1944,,,,,,,,,,True
 Amsterdam,7463,Westeinde,24,Amsterdam,52.35856458,4.8987403,adres,,A. v.d. Berg,H.C.J.M. Verhaaff,1014,23000,16-5-1944,,,,,,,Y,,,False
 Amsterdam,7464,De Lairessestraat,133,Amsterdam,52.35235269,4.86787021,adres,,H.J. Nathan,N.l. Volkswohlfarht,,29000,6-3-1944,,,,,,,,,Y,False
-Amsterdam,7465,Pieter Vlamingstraat,70,Amsterdam,52.36497707,4.92658027,straat,,H. Joosten,H.C.C. Dekker Sr.,,12000,2-6-1944,,,,,,,Y,,,True
+Amsterdam,7465,Pieter Vlamingstraat,70,Amsterdam,52.36497707,4.92658027,straat,,H. Joosten,H.C.C. Dekker Sr.,,12000,2-6-1944,,,,,,,,,,True
 Amsterdam,7466,Prinsengracht,1097,Amsterdam,52.3626069,4.90039881,adres,,A.S. Veder,A. Vreeling,1022,30000,27-6-1944,,,,,,,Y,,,False
 Hilversum,7467,Dennelaan,1,Hilversum,52.22310922,5.16803652,plaats,,M. Frank v. Esso;A. Hamel,J. Pronk,,13500,2-5-1944,,,,,,,,,,True
 Rotterdam,7468,De Ruyterstraat,19,Hoek van Holland,51.98561474,4.12683706,adres,,M. Bamberg,A. Zonnevylle,,2300,5-5-1944,,,,,,,,,,False
@@ -6403,7 +6403,7 @@ Rotterdam,7757,Mathenesserlaan,434,Rotterdam,51.91433752,4.44890238,adres,,A. Bo
 Utrecht,7758,Bosschestraat,1,Utrecht,52.0886922,5.09520363,plaats,,S. de Groot,J. de Groot,1131,6000,,,,,,,,Y,,,True
 Enschede,7759,Lipperkerkstraat,53,Enschede,52.22086117,6.90577762,adres,,L. de Beer Jr.,W. Borgers,,5750,9-5-1944,,,,,,,,,,False
 Amsterdam,776,Singel,374,Amsterdam,52.36955749,4.88757372,adres,,J. Kisch,A.J. Hardonk,,13000,30-10-1942,,,,,,,,,,False
-Deventer,7760,Sijzenbaan,28,Deventer,52.25578541,6.15733446,adres,,A. Ehrenreich,D. Helder,,1250,6-6-1944,,,,,,,Y,,,False
+Deventer,7760,Sijzenbaan,28,Deventer,52.25578541,6.15733446,adres,,A. Ehrenreich,D. Helder,,1250,6-6-1944,,,,,,,,,,False
 Zwolle,7761,Kamperstraat,27,Zwolle,52.51166848,6.0890846,adres,,J. Krukziener-Kan,J.A. Kolbe,,4800,10-5-1944,,,,,,,,,,False
 Hengelo,7762,Leliestraat,36/38/37/39,Hengelo,52.26443682,6.77928917,adres,,M.B.T. Menko,H.J. Assink,,27500,19-6-1944,,Y,"41, 49, 50",,,,,,,True
 Hengelo,7763,Lindenweg,32/46,Hengelo,52.27442506,6.79388043,adres,,J. Hager u. Gen.,N.V. Contr.Arb.Lev.My.,,25000,31-5-1944,,,,,,,,,Y,True
@@ -6473,12 +6473,12 @@ Hilversum,7819,Kerkelanden',,Hilversum,52.22310922,5.16803652,plaats,Baugrund,A.
 Amsterdam,782,Van der Hoopstraat,98,Amsterdam,52.38436997,4.87157642,adres,,A. Meyer,P.C. Verhoeven,,15000,23-9-1942,,,,,,,,,,False
 Groningen,7820,Noorderbinnensingel,54/55/55a/55b/55c/55d,Groningen,53.22539096,6.55856827,adres,,H.W. Polak-v.d. Wijk,N.V. De. Cent. Arbeiders Levensvz. Mij.,,26000,,,,,,,,,,Y,True
 Westerkwartier,7821,Hoofdstraat,A 62,Aduard,53.25457487,6.47090365,plaats,,E.A. Cohen,A. Tolner,,3250,,,,,,,,,,,True
-Zutphen,7822,Martinetsingel,17,Zutphen,52.13912418,6.19837476,adres,,N. Neijer-Cutzen,N.N. Hiemstra,,5500,23-6-1944,,,,,,,Y,,,False
+Zutphen,7822,Martinetsingel,17,Zutphen,52.13912418,6.19837476,adres,,N. Neijer-Cutzen,N.N. Hiemstra,,5500,23-6-1944,,,,,,,,,,False
 Arnhem,7823,Hertogstraat,13,Arnhem,51.9843614,5.92106242,adres,,S. Rons Jr.,Wed. A.N. Lamers-Ellemeijer,,11500,31-7-1944,,,,,,,,,,True
 Steenwijkerland,7824,Markt,32,Steenwijk,52.78668602,6.11596259,adres,,J.S. Gokkes,J. Bouma,,6500,8-6-1944,,Y,"17, 51",,,,,,,False
 Oss,7825,Heuvel,40,Oss,51.76978987,5.52603214,adres,,fa. v. Dijk,A.A.T. Fortgens,,12500,15-6-1944,,,,,,,,,,False
 Zutphen,7826,Zuiderhaven,6/7/8/9,Zutphen,52.13743799,6.19391807,adres,,Koppel Hartog-Koppel,G.J. Boeijink,,2600,,,,,,,,,,,True
-Zutphen,7827,Berkelkade,6,Zutphen,52.14301171,6.19189826,adres,,M. Rosenthal-Frank,M.M. Hiemstra,,5300,23-6-1944,,,,,,,Y,,,False
+Zutphen,7827,Berkelkade,6,Zutphen,52.14301171,6.19189826,adres,,M. Rosenthal-Frank,M.M. Hiemstra,,5300,23-6-1944,,,,,,,,,,False
 Deventer,7828,Binnensingel,80,Deventer,52.25613198,6.15697369,adres,,fa. R. v. Engel,C. Renssen,,2800,20-7-1944,,,,,,,,,,False
 Deventer,7829,Achter de Hoven,125,Deventer,52.25229777,6.14261412,adres,,A. Polak,C. Renssen,,2400,20-7-1944,,,,,,,,,,True
 Amsterdam,783,Weesperzijde,73,Amsterdam,52.35354087,4.90986288,adres,,B. v.d. Waal,B.P.M. Hermans-Helsloot,1001,25000,14-9-1942,,,,,,,Y,,,False
@@ -6505,7 +6505,7 @@ Veenendaal,7847,Gortstraat,39,Veenendaal,52.03122564,5.54824276,adres,,Erben Dr.
 Rotterdam,7848,Oude Dijk,178,Rotterdam,51.92248806,4.48653571,plaats,,E. Vink-Levie,A.J. v.d. Vliet,,14000,30-6-1944,,,,,,,,,,True
 Oldambt,7849,Boschstraat,38,Winschoten,53.14063765,7.03498977,plaats,,S. de Vries,G. v. Dijk,,3500,,,,,,,,,,,True
 Amsterdam,785,Vossiusstraat,17,Amsterdam,52.36096071,4.88077427,adres,,I. Jacobson,A. Jansen-Blok,,20000,18-9-1942,,,,,,,,,,False
-Zutphen,7850,Nieuwstad,91,Zutphen,52.14641593,6.19805437,adres,,H. Frankenhuis u. Gen.,N.N. Hiemstra,,6500,23-6-1944,,,,,,,Y,,,False
+Zutphen,7850,Nieuwstad,91,Zutphen,52.14641593,6.19805437,adres,,H. Frankenhuis u. Gen.,N.N. Hiemstra,,6500,23-6-1944,,,,,,,,,,False
 Hilversum,7851,Oude Eemnesserweg,14/26,Hilversum,52.23056915,5.1941541,straat,,Bouw & Handel Mij N.V. Belia,N.N. Hiemstra;R. Gil,;1018,22000,,,,,,,,Y,,,True
 s Gravenhage,7852,Daendelsstraat,4,Den Haag,52.07903647,4.33325914,adres,Möbel,Silhouet Film A.G.,E. Claussen,,6641,,,,,,,,,,,True
 Schiedam,7853,Swammerdamsingel,71/79,Schiedam,51.91582863,4.40808991,adres,,L.F.A. Stokvis;H.J. Stokvis,A. v. Versendaal,,96000,3-5-1944,,,,,,,,,,True
@@ -6706,7 +6706,7 @@ Apeldoorn,8028,Rosariumstraat,55,Apeldoorn,52.21149685,5.96535757,adres,,K.S. Le
 Voorst,8029,Rijksstraatweg,F 419/F 420,Twello,52.24057714,6.09968628,adres,,F. de Jonge,W. v.d. Berg,,8500,,,,,,,,,,,True
 Alkmaar,803,Bleaustraat,13,Alkmaar,52.63581672,4.75117765,plaats,,J. Elzas,H. Göddeke,,5200,5-10-1942,,,,,,,,,,True
 Blaricum,8030,Noolscheweg,25/27,Blaricum,52.28295893,5.27423136,plaats,,S. Gobes &.Esso,A.F. Knaap,1075,13000,,,,,,,,Y,,,True
-Rotterdam,8031,Oosterzeestraat,60,Rotterdam,51.91761146,4.44903201,adres,,K. Fenk,K.J. Elderson,,10000,,,,,,,,Y,,,False
+Rotterdam,8031,Oosterzeestraat,60,Rotterdam,51.91761146,4.44903201,adres,,K. Fenk,K.J. Elderson,,10000,,,,,,,,,,,False
 Rotterdam,8032,Jan Porcellisstraat,5/7,Rotterdam,51.91820172,4.46019853,adres,,I. v. Zwanenberg,E.F. Scheffel;F.A. v.d. Spek,1012;,21000,15-6-1944,,,,,,,Y,,,True
 Borne,8033,Kerkdennenweg,,Borne,52.30103715,6.74829249,plaats,,fa. L. Lievenboom u. Gen.,D. ter Marsch,,750,7-7-1944,,Y,73,,,,,,,True
 Rotterdam,8034,Couwaelstraat,3/5,Rotterdam,51.93620297,4.49678764,adres,,S. Cohen,E.F. Scheffel;K.J. Elderson,1012;,17000,19-6-1944,,,,,,,Y,,,True
@@ -6784,7 +6784,7 @@ Groningen,8096,Winschoterkade,16,Groningen,53.21578944,6.57573824,adres,,H. v. H
 Hardinxveld-Giessendam,8097,Rivierdijk A411,,Hardinxveld,51.82265363,4.89204655,straat,,B. Meiboom,W. Ceelen,,3200,7-7-1944,,,,,,,,,,True
 Rotterdam,8098,Willem van Hillegaersbergstraat 2-4-6-8-10-12a.b,,Rotterdam,51.94534874,4.48439296,straat,,N.V. Jupiter,E.F. Scheffel;H.J. Elderson,1012;,48000,30-8-1944,,,,,,,Y,,,True
 Rotterdam,8099,Ceintuurbaan,29/30,Rotterdam,51.94273961,4.48235996,adres,,N.V. Jupiter,E.F. Scheffel;H.J. Elderson,1012;,21500,,,,,,,,Y,,,True
-Amsterdam,810,Heerengracht,66,Amsterdam,52.37344272,4.90454379,plaats,,N.V. v/h. Union Company,C. Fang,,22500,21-9-1942,,,,,,,Y,,,True
+Amsterdam,810,Heerengracht,66,Amsterdam,52.37344272,4.90454379,plaats,,N.V. v/h. Union Company,C. Fang,,22500,21-9-1942,,,,,,,,,,True
 Rotterdam,8100,Ceintuurbaan 15-16-17-18-19 a.b,,Rotterdam,51.94204317,4.4773016,straat,,N.V. Mij t. Expl. v. Onr. Goed. Giedijkjalie,E.F. Scheffel,1012,42000,28-8-1944,,,,,,,Y,,,True
 Krimpen aan den IJssel,8101,Kortlandstraat,76/78/80/82/81/83/85/87,Krimpen aan den IJssel,51.91517769,4.5856212,adres,,,H.E.J. Knetemann,1005,32000,25-1-1944,,,,,,,Y,,,True
 Krimpen aan den IJssel,8101,Noorderstraat,1/3/5/7,Krimpen aan den IJssel,51.91501538,4.58093899,adres,,,H.E.J. Knetemann,1005,32000,25-1-1944,,,,,,,Y,,,True
