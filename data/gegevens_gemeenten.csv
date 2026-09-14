@@ -2,12 +2,12 @@ gemeente,gemeentecode,provincie,transacties,transacties_gemeente,onderzoek_nodig
 Aa en Hunze,GM1680,Drenthe,6,,,Y,Y,Erkenning,Y,Drents Archief,-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Aa%20en%20Hunze.pdf,Ja,Nee,nvt,Ja,Ja,Ja,Ja,Ja,Nee
 Aalsmeer,GM0358,Noord-Holland,2,,,Y,Y,Publicatie,Y,Radboud Universiteit (Advies & Actualiteit),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Aalsmeer%2C%20Amstelveen%2C%20Beverwijk%2C%20Bloemendaal%2C%20Haarlemmermeer%2C%20Heemskerk%2C%20Heemstede%2C%20Uitgeest%2C%20Uithoorn%2C%20Velsen%2C%20Zandvoort.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Ja
 Aalten,GM0197,Gelderland,23,,Y,Y,Y,Erkenning,Y,Radboud Universiteit (Advies & Actualiteit),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Aalten%2C%20Berkelland%2C%20Bronckhorst%2C%20Oude%20IJsselstreek%2C%20Oost%20Gelre.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Nee,Ja,Nee
-Alkmaar,GM0361,Noord-Holland,75,,Y,Y,Y,Publicatie,Y,Radboud Universiteit (Advies & Actualiteit),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Alkmaar.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Ja
+Alkmaar,GM0361,Noord-Holland,75,,Y,Y,Y,Erkenning,Y,Radboud Universiteit (Advies & Actualiteit),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Alkmaar.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Ja
 Almelo,GM0141,Overijssel,60,,Y,Y,,,Y,De Overijssel Academie,,,,,,,,,,,
 Alphen aan den Rijn,GM0484,Zuid-Holland,18,,Y,Y,Y,Beperkt vooronderzoek,N,Gemeente,-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Alphen%20aan%20den%20Rijn.pdf,Nee,Nee,nvt,Nee,Nee,Nee,Nee,Nee,Nee
 Altena,GM1959,Noord-Brabant,5,1,Y,Y,Y,Beperkt vooronderzoek,N,Gemeente,-,,,,,,,,,,
 Amersfoort,GM0307,Utrecht,89,,Y,Y,Y,Moreel rechtsherstel,Y,Maarten-Jan Vos (Historisch onderzoek & meer),€160.000,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Amersfoort.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Ja
-Amstelveen,GM0362,Noord-Holland,22,,Y,Y,Y,Publicatie,Y,Radboud Universiteit (Advies & Actualiteit),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Aalsmeer%2C%20Amstelveen%2C%20Beverwijk%2C%20Bloemendaal%2C%20Haarlemmermeer%2C%20Heemskerk%2C%20Heemstede%2C%20Uitgeest%2C%20Uithoorn%2C%20Velsen%2C%20Zandvoort.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Ja
+Amstelveen,GM0362,Noord-Holland,22,,Y,Y,Y,Erkenning,Y,Radboud Universiteit (Advies & Actualiteit),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Aalsmeer%2C%20Amstelveen%2C%20Beverwijk%2C%20Bloemendaal%2C%20Haarlemmermeer%2C%20Heemskerk%2C%20Heemstede%2C%20Uitgeest%2C%20Uithoorn%2C%20Velsen%2C%20Zandvoort.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Ja
 Amsterdam,GM0363,Noord-Holland,1782,23,Y,Y,Y,Moreel rechtsherstel,Y,NIOD,€10.800.000,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Amsterdam.pdf,,,,,,,,,
 Apeldoorn,GM0200,Gelderland,82,,Y,Y,Y,Moreel rechtsherstel,Y,Radboud Universiteit (Advies & Actualiteit),€700.000,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Apeldoorn.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Ja
 Arnhem,GM0202,Gelderland,171,,Y,Y,Y,Publicatie,Y,Maili Blauw (Blauw Historisch Onderzoek),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Arnhem.pdf,Ja,Nee,nvt,Ja,Ja,Nee,Ja,Ja,Nee
@@ -48,7 +48,7 @@ Dijk en Waard,GM1980,Noord-Holland,1,,,Y,Y,Erkenning,Y,Radboud Universiteit (Adv
 Dinkelland,GM1774,Overijssel,17,,Y,Y,Y,Beperkt vooronderzoek,Y,Mariët Blokhuis,-,,,,,,,,,,
 Doesburg,GM0221,Gelderland,9,,,Y,Y,Erkenning,Y,Radboud Universiteit (Advies & Actualiteit),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Doesburg.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Nee,Ja,Nee
 Doetinchem,GM0222,Gelderland,50,,Y,Y,Y,Erkenning,Y,Karel Berkhuysen,-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Doetinchem.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,nee,Nee
-Dordrecht,GM0505,Zuid-Holland,44,,Y,Y,Y,Publicatie,Y,Stolpersteine Dordrecht,-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Dordrecht.pdf,Ja,Ja,nvt,Ja,Nee,Nee,Nee,Nee,Nee
+Dordrecht,GM0505,Zuid-Holland,44,,Y,Y,Y,Erkenning,Y,Stolpersteine Dordrecht,-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Dordrecht.pdf,Ja,Ja,nvt,Ja,Nee,Nee,Nee,Nee,Nee
 Echt-Susteren,GM1711,Limburg,2,,,,,,,,,,,,,,,,,,
 Ede,GM0228,Gelderland,5,,,Y,Y,Beperkt vooronderzoek,N,Gemeente,-,,,,,,,,,,
 Eemsdelta,GM1979,Groningen,14,,Y,Y,Y,Erkenning,Y,Rijksuniversiteit Groningen,-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Eemsdelta%2C%20Pekela%2C%20Westerwolde.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Nee
@@ -140,7 +140,7 @@ Overbetuwe,GM1734,Gelderland,2,,,Y,Y,Publicatie,Y,Radboud Universiteit (Advies &
 Pekela,GM0765,Groningen,14,,Y,Y,Y,Erkenning,Y,Rijksuniversiteit Groningen,-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Eemsdelta%2C%20Pekela%2C%20Westerwolde.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Nee
 Purmerend,GM0439,Noord-Holland,6,,,Y,Y,Beperkt vooronderzoek,Y,Historisch genootschap Beemstert,-,,,,,,,,,,
 Putten,GM0273,Gelderland,1,,,,,,,,,,,,,,,,,,
-Raalte,GM0177,Overijssel,2,,,Y,Y,Publicatie,Y,Radboud Universiteit (Advies & Actualiteit),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Raalte.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Nee,Ja,Nee
+Raalte,GM0177,Overijssel,2,,,Y,Y,Erkenning,Y,Radboud Universiteit (Advies & Actualiteit),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Raalte.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Nee,Ja,Nee
 Renkum,GM0274,Gelderland,8,,,,,,,,,,,,,,,,,,
 Reusel-De Mierden,GM1667,Noord-Brabant,1,,,Y,Y,Beperkt vooronderzoek,N,Gemeente + Heemkundevereniging,-,,,,,,,,,,
 Rheden,GM0275,Gelderland,13,,Y,Y,,,,,,,,,,,,,,,
@@ -161,7 +161,7 @@ Sittard-Geleen,GM1883,Limburg,16,,Y,Y,,,Y,Ernst de Reus (voorzitter Joodse Gemee
 Sliedrecht,GM0610,Zuid-Holland,6,,,,,,,,,,,,,,,,,,
 Smallingerland,GM0090,Fryslân,3,,,Y,Y,Beperkt vooronderzoek,N,Historische vereniging Smelnes Erfskip + medewerker gemeente,-,,,,,,,,,,
 Soest,GM0342,Utrecht,7,,,Y,Y,Erkenning,Y,Maarten-Jan Vos (Historisch onderzoek & meer),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Soest.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Nee
-Stadskanaal,GM0037,Groningen,26,1,Y,Y,Y,Publicatie,Y,Rijksuniversiteit Groningen,-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Stadskanaal.pdf,Ja,Ja,Ja,Ja,Ja,Ja,Ja,Nee,Nee
+Stadskanaal,GM0037,Groningen,26,1,Y,Y,Y,Erkenning,Y,Rijksuniversiteit Groningen,-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Stadskanaal.pdf,Ja,Ja,Ja,Ja,Ja,Ja,Ja,Nee,Nee
 Steenwijkerland,GM1708,Overijssel,24,,Y,Y,Y,Moreel rechtsherstel,Y,Overijssel-academie,€255.000,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Steenwijkerland.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Ja
 Stein,GM0971,Limburg,1,,,,,,,,,,,,,,,,,,
 Stichtse Vecht,GM1904,Utrecht,1,,,Y,Y,Beperkt vooronderzoek,Y,Regionaal Historisch Centrum Vecht en Venen (RHCVV),-,,,,,,,,,,
@@ -212,7 +212,7 @@ Zaanstad,GM0479,Noord-Holland,32,4,Y,Y,Y,Moreel rechtsherstel,Y,Radboud Universi
 Zaltbommel,GM0297,Gelderland,13,,Y,Y,Y,Publicatie,Y,Ester Vink,-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Zaltbommel.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Nee
 Zandvoort,GM0473,Noord-Holland,33,,Y,Y,Y,Publicatie,Y,Radboud Universiteit (Advies & Actualiteit),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Aalsmeer%2C%20Amstelveen%2C%20Beverwijk%2C%20Bloemendaal%2C%20Haarlemmermeer%2C%20Heemskerk%2C%20Heemstede%2C%20Uitgeest%2C%20Uithoorn%2C%20Velsen%2C%20Zandvoort.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Ja
 Zeist,GM0355,Utrecht,13,,Y,Y,Y,Publicatie,Y,Maarten-Jan Vos (Historisch onderzoek & meer),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Zeist.pdf,Ja,Ja,nvt,Ja,Ja,Ja,Ja,Ja,Ja
-Zevenaar,GM0299,Gelderland,23,,Y,Y,Y,Publicatie,Y,Willem Franck,-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Zevenaar.pdf,Ja,Ja,nvt,Ja,Nee,Ja,Nee,Nee,Nee
+Zevenaar,GM0299,Gelderland,23,,Y,Y,Y,Erkenning,Y,Willem Franck,-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Zevenaar.pdf,Ja,Ja,nvt,Ja,Nee,Ja,Nee,Nee,Nee
 Zutphen,GM0301,Gelderland,96,,Y,Y,Y,Erkenning,Y,Radboud Universiteit (Advies & Actualiteit),-,https://github.com/kroncrv/vastgoedboeken/blob/main/rapporten/Zutphen.pdf,Ja,Nee,nvt,Ja,Ja,Ja,Ja,Ja,Ja
 Zwartewaterland,GM1896,Overijssel,5,,,,,,,,,,,,,,,,,,
 Zwijndrecht,GM0642,Zuid-Holland,9,,,Y,,,Y,Kees Popijus,,,,,,,,,,,
