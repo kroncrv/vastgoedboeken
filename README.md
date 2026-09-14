@@ -99,8 +99,8 @@ De onderzoeksstatus en beoordeling per gemeente. Welk onderzoek een gemeente hee
 | Kolom | Betekenis |
 |---|---|
 | `gemeente` | Gemeentenaam |
-| `gemeentecode` | CBS-gemeentecode (bijvoorbeeld `GM0363` voor Amsterdam), volgens de gemeentelijke indeling op 1 januari 2026 |
-| `provincie` | Provincie waarin de gemeente ligt, volgens diezelfde CBS-indeling |
+| `gemeentecode` | CBS-gemeentecode volgens de gemeentelijke indeling op 1 januari 2026 |
+| `provincie` | Provincie waarin de gemeente ligt |
 | `transacties` | Aantal Verkaufsbücher-transacties in deze gemeente |
 | `transacties_gemeente` | Aantal transacties waarbij de gemeente zelf koper was |
 | `onderzoek_nodig` | Gemeenten met minstens 10 transacties of waar de gemeente zelf de koper was |
